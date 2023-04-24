@@ -1,0 +1,19 @@
+Return valid `.yml` for 5 apple slices, and 2 dozen eggs.
+
+- Below you'll find the current yaml schema.
+- Please only use the schema below and if you are unsure, then return `Unsure`.
+
+```
+- item: Apple Slices
+  quantity: 5
+  unit: pieces
+- item: Milk
+  quantity: 1
+  unit: gallon
+- item: Bread
+  quantity: 2
+  unit: loaves
+- item: Eggs
+  quantity: 1
+  unit: dozen
+```
