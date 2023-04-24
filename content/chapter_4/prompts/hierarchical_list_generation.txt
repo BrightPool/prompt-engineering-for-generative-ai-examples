@@ -1,0 +1,13 @@
+Generate a hierarchical and incredibly detailed article outline on "what are the benefits of data engineering".
+
+See an example of the hierarchical structure below:
+
+Article Title: What are the benefits of digital marketing?
+
+* Introduction
+    a. Explanation of digital marketing
+    b. Importance of digital marketing in today’s business world
+
+* Increased Brand Awareness
+    a. Definition of brand awareness
+    b. How digital marketing helps in increasing brand awareness
