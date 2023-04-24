@@ -1,4 +1,6 @@
-Generate a bullet point list of 5 male Disney characters. Only include the name of the character for each line. Never include the film for each Disney character.
+Generate a bullet point list of 5 male Disney characters. 
+Only include the name of the character for each line. 
+Never include the film for each Disney character.
 
 Below is an example list:
 * Aladdin
