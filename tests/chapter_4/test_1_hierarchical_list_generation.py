@@ -1,18 +1,8 @@
 import re
+from content.chapter_4.one_hierarchical_list_generation import openai_result
 
 
 def test_heading_extraction():
-    openai_result = """
-    * Introduction
-        a. Explanation of data engineering
-        b. Importance of data engineering in today’s data-driven world
-    * Efficient Data Management
-        a. Definition of data management
-        b. How data engineering helps in efficient data management.
-    * Conclusion
-        a. Importance of Data Engineering in the modern business world
-        b. Future of Data Engineering and its impact on the data ecosystem
-    """
     heading_pattern = r"\* (.+)"
     headings = re.findall(heading_pattern, openai_result)
     expected_headings = ["Introduction", "Efficient Data Management", "Conclusion"]
@@ -20,17 +10,6 @@ def test_heading_extraction():
 
 
 def test_subheading_extraction():
-    openai_result = """
-    * Introduction
-        a. Explanation of data engineering
-        b. Importance of data engineering in today’s data-driven world
-    * Efficient Data Management
-        a. Definition of data management
-        b. How data engineering helps in efficient data management.
-    * Conclusion
-        a. Importance of Data Engineering in the modern business world
-        b. Future of Data Engineering and its impact on the data ecosystem
-    """
     subheading_pattern = r"\s+[a-z]\. (.+)"
     subheadings = re.findall(subheading_pattern, openai_result)
     expected_subheadings = [
