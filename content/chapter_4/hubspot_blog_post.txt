@@ -1,0 +1,536 @@
+With how accessible the internet is today, would you believe me if I told you the number of people who go online every day is still increasing?
+
+helpful tools to learn about digital marketing
+It is. In fact, there are about 4.9 billion global internet users as of 2021, a 400 million jump from 2020. And although we say it a lot, the way people shop and buy really has changed along with it — meaning offline marketing can’t be your only strategy for driving sales because you need to meet audiences where they’re already spending time: on the internet. 
+
+→ Click here to download our free guide to digital marketing fundamentals [Download Now].
+Marketing has always been about connecting with your audience in the right place and at the right time. Today, that means you need to meet them where they are already spending time: on the internet.
+
+Enter digital marketing — in other words, any form of online marketing.
+
+At HubSpot, we talk a lot about inbound marketing as a really effective way to attract, engage, and delight customers online. But we still get a lot of questions from people all around the world about digital marketing. So, we decided to answer them. Click the links below to jump to each question, or keep reading to see how digital marketing is carried out today.
+
+What is digital marketing?
+Why is digital marketing important?
+Types of Digital Marketing
+What does a digital marketer do?
+Inbound Marketing vs. Digital Marketing: Which is it?
+Does digital marketing work for all businesses?
+How to Do Digital Marketing
+Digital Marketing Examples
+So, how do you define digital marketing today?
+
+What is digital marketing?
+Digital marketing, also called online marketing, refers to all marketing efforts that occur on the internet. Businesses leverage digital channels such as search engines, social media, email, and other websites to connect with current and prospective customers. This also includes communication through text or multimedia messages.
+
+A seasoned inbound marketer might say inbound marketing and digital marketing are virtually the same thing, but there are some minor differences. And conversations with marketers and business owners in the U.S., U.K., Asia, Australia, and New Zealand, I've learned a lot about how those small differences are being observed across the world.
+
+
+How does a business define digital marketing?
+At this stage, digital marketing is vital for your business and brand awareness. It seems like every other brand has a website, and if they don't, they at least have a social media presence or digital ad strategy. Digital content and marketing is so common that consumers now expect and rely on it as a way to learn about brands. Because digital marketing has so many possibilities, you can get creative and experiment with a variety of marketing tactics on a budget.
+
+Overall, digital marketing is defined by using numerous digital tactics and channels to connect with customers where they spend much of their time: online. The best digital marketers have a clear picture of how each digital marketing campaign supports their overarching goals. And depending on the goals of their marketing strategy, marketers can support a larger campaign through the free and paid channels at their disposal.
+
+FEATURED RESOURCE
+Free Marketing Plan Template
+Fill out this form to access the template.
+Open form
+
+A content marketer, for example, could create a series of blog posts that generate leads from an ebook. A social media marketer might help promote those blogs through paid and organic posts on the business's social media accounts, and the email marketer could create an email campaign to send those who download the ebook more information on the company. We'll talk more about these specific digital marketers in a minute.
+
+Why is digital marketing important?
+Digital marketing helps you reach a larger audience than you could through traditional methods and target the prospects who are most likely to buy your product or service. Additionally, it's often more cost-effective than traditional advertising and enables you to measure success on a daily basis and pivot as you see fit.
+
+There are a few major benefits of digital marketing: 
+
+You can focus your efforts on only the prospects most likely to purchase your product or service.
+
+It's more cost-effective than outbound marketing methods.
+
+Digital marketing evens the playing field within your industry and allows you to compete with bigger brands.
+
+Digital marketing is measurable.
+
+It’s easier to adapt and change a digital marketing strategy.
+
+Digital marketing can improve your conversion rate and the quality of your leads.
+
+You can engage audiences at every stage with digital marketing.
+
+Let's dive deeper.
+
+1. You can focus your efforts on only the prospects most likely to purchase your product or service.
+If you place an advertisement on TV, in a magazine, or on a billboard, you have limited control over who sees the ad. Of course, you can measure certain demographics — including the magazine's typical readership or the demographic of a certain neighborhood — but it's still largely a shot in the dark.
+
+Digital marketing allows you to identify and target a highly-specific audience with personalized and high-converting marketing messages.
+
+For instance, you might use social media targeting to show ads to a certain audience based on variables like age, gender, location, interests, networks, or behaviors. Alternatively, you might use PPC or SEO strategies to serve ads to users who've shown interest in or searched for specific keywords related to your product, service, or industry. 
+
+Ultimately, digital marketing helps you conduct the research necessary to identify your buyer personas and refine your strategy to ensure you’re reaching prospects most likely to buy.
+
+2. It's more cost-effective than outbound marketing methods.
+Digital marketing helps you track day-to-day campaign performance, so you know what channels are performing well and which aren’t, helping you optimize your campaign budgets for high ROI. The same can’t be said for traditional forms of advertising. It doesn’t matter how your billboard performs  — it still costs the same, even if it doesn’t convert. 
+
+Plus, with digital marketing, you have complete control over where you choose to spend your money. Perhaps you spend money on design software to create high-converting Instagram content rather than paying for PPC campaigns. A digital marketing strategy allows you to pivot continuously, ensuring you never waste money on channels that don't perform well.
+
+By and large, digital marketing is a more cost-effective solution and provides unique opportunities to ensure you get the most bang for your buck.
+
+For instance, if you work for a small business with a limited budget, you might try investing in social media, blogging, or SEO – three strategies that can give you high ROI even with minimal spending.
+
+3. Digital marketing evens the playing field within your industry and allows you to compete with bigger brands.
+If you work for a small business, it's likely difficult for you to compete with the major brands in your industry, many of which have millions of dollars to invest in campaigns. Fortunately, there are plenty of opportunities to outrank the big players through strategic digital marketing initiatives.
+
+For instance, you might use long-tail keywords to create high-quality content that ranks on search engines. Search engines don’t care which brand is the biggest, but it does care about prioritizing content that resonates best with target audiences. 
+
+4. Digital marketing is measurable.
+While traditional advertising can be helpful for specific goals, its biggest limitation is measurability. This is one of the biggest benefits of digital marketing, as it can give you a start-to-finish view of all the metrics that matter to your company — including impressions, shares, views, clicks, and time on page.
+
+Unlike most offline marketing efforts, digital marketing allows marketers to see accurate results in real-time. If you've ever put an advertisement in a newspaper, you'll know how difficult it is to estimate how many people flipped to that page and paid attention to it. There's no surefire way to know if that ad was responsible for any sales at all.
+
+On the other hand, with digital marketing, you can measure the ROI of pretty much any aspect of your marketing efforts.
+
+Here are some examples:
+
+Website Traffic
+With digital marketing, you can see the exact number of people who have viewed your website's homepage in real-time by using digital analytics software available in marketing platforms like HubSpot.
+
+You can also see how many pages they visited, what device they were using, and where they came from, amongst other digital analytics data.
+
+This intelligence helps you prioritize which marketing channels to spend more or less time on based on the number of people those channels drive to your website. For example, if only 10% of your traffic is coming from organic search, you know that you probably need to spend some time on SEO to increase that percentage.
+
+With offline marketing, it can be difficult to tell how people interact with your brand before they interact with a salesperson or make a purchase. With digital marketing, you can identify trends and patterns in people's behavior before they've reached the final stage in their buyer's journey, meaning you can make more informed decisions about how to attract them to your website right at the top of the marketing funnel.
+
+Content Performance and Lead Generation
+
+Imagine you've created a product brochure and posted it through people's letterboxes — that brochure is a form of offline content. The problem is that you have no idea how many people opened your brochure or threw it straight into the trash.
+
+Instead, imagine you have that brochure on your website. You can measure exactly how many people viewed the page it’s on, and you can use a form to collect the contact information of those who downloaded it. It’s twofold: you measure how many people engage with your content and generate qualified leads when people download it.
+
+Attribution Modeling
+An effective digital marketing strategy combined with the right tools and technologies allows you to trace all of your sales back to a customer's first digital touchpoint with your business.
+
+We call this attribution modeling, and it allows you to identify trends in the way people research and buy your product, helping you to make more informed decisions about what parts of your marketing strategy deserve more attention, and what parts of your sales cycle need refining.
+
+
+Connecting the dots between marketing and sales is hugely important. According to LinkedIn, 87% of sales and marketing leaders say collaboration between sales and marketing enables critical business growth, but misalignment between both teams can damage financial performance. If you can improve your customer's journey through the buying cycle by using digital technologies, then it's likely to reflect positively on your business's bottom line.
+
+5. It’s easier to adapt and change a digital marketing strategy.
+A lot of work goes into developing a marketing strategy. Generally, you will follow through with that strategy until completion, allow it to take effect, and then judge its results. However, things do not always go according to plan. You may realize halfway through that a calculation was off, an assumption was incorrect, or an audience did not react how they were expected to. Being able to pivot or adjust the strategy along the way is highly beneficial because it prevents you from having to start over completely.
+
+Being able to change your strategy easily is a great benefit of digital marketing. Adapting a digital marketing strategy is a lot easier than other, more traditional forms of marketing, like mailers or billboard advertising. For instance, if an online ad isn’t delivering as expected, you can quickly adjust it or pause it to yield better results.
+
+6. Digital marketing can improve your conversion rate and the quality of your leads.
+As digital marketing makes it simpler to measure your marketing efforts, this makes improving your conversion rate simpler as well. Being able to measure the effectiveness of each tactic helps you develop better strategies. Continuously refining your methods improves your conversion rate. Investing in online marketing ensures that everything is optimized for the highest amount of conversions.
+
+Additionally, all leads do not offer the same value for your business. Digital marketing allows you to target a specific audience that will yield higher-quality leads that are more likely to become customers. Connecting your business with the most valuable leads will directly improve your conversion rate.
+
+7. You can engage audiences at every stage with digital marketing.
+It’s essential to begin engaging your audience as early as possible. Making a connection at the first stage of the buyer’s journey helps push the lead through the customer funnel. Using digital marketing allows you to accomplish that from start to finish and at every point in between.
+
+Online channels allow you to follow the entire buying journey of your customers. Understanding and analyzing how customers are move and operate is important for converting leads. Digital marketing allows you to track them through that process. And, even if they don’t convert in the early stages, it at least helps ensure they have made a connection with your business.
+
+Types of Digital Marketing
+Search Engine Optimization (SEO)
+Content Marketing
+Social Media Marketing
+Pay Per Click (PPC)
+Affiliate Marketing
+Native Advertising
+Marketing Automation
+Email Marketing
+Online PR
+Inbound Marketing
+Sponsored Content
+Search Engine Marketing (SEM)
+Instant Messaging Marketing
+Here's a quick rundown of some of the most common digital marketing tactics and the channels involved in each one.
+
+1. Search Engine Optimization (SEO)
+This is the process of optimizing your website to "rank" higher in search engine results pages, thereby increasing the amount of organic (or free) traffic your website receives. The channels that benefit from SEO include websites, blogs, and infographics.
+
+There are a number of ways to approach SEO in order to generate qualified traffic to your website. These include:
+
+On-page SEO: This type of SEO focuses on all of the content that exists "on the page" when looking at a website. By researching keywords for their search volume and intent (or meaning), you can answer questions for readers and rank higher on the search engine results pages (SERPs) those questions produce.
+Off page SEO: This type of SEO focuses on all of the activity that takes place "off the page" when looking to optimize your website. "What activity not on my own website could affect my ranking?" You might ask. The answer is inbound links, also known as backlinks. The number of publishers that link to you, and the relative "authority" of those publishers, affect how highly you rank for the keywords you care about. By networking with other publishers, writing guest posts on these websites (and linking back to your website), and generating external attention, you can earn the backlinks you need to move your website up on all the right SERPs.
+Technical SEO: This type of SEO focuses on the backend of your website, and how your pages are coded. Image compression, structured data, and CSS file optimization are all forms of technical SEO that can increase your website's loading speed — an important ranking factor in the eyes of search engines like Google.
+For a real-life example on how to successfully implement SEO into your digital marketing strategy, check out our case study on Canva here:
+
+
+2. Content Marketing
+This term denotes the creation and promotion of content assets for the purpose of generating brand awareness, traffic growth, lead generation, and customers.
+
+Want to learn and apply content marketing to your business? Check out HubSpot Academy's free content marketing training resource page.
+
+The channels that can play a part in your content marketing strategy include:
+
+Blog posts: Writing and publishing articles on a company blog helps you demonstrate your industry expertise and generates organic search traffic for your business. This ultimately gives you more opportunities to convert website visitors into leads for your sales team.
+Ebooks and whitepapers: Ebooks, whitepapers, and similar long-form content helps further educate website visitors. It also allows you to exchange content for a reader's contact information, generating leads for your company and moving people through the buyer's journey.
+Infographics: Sometimes, readers want you to show, not tell. Infographics are a form of visual content that helps website visitors visualize a concept you want to help them learn.
+Audio or visual content: Television and radio are popular channels for digital marketing. Creating content that can be shared online as a video or heard on the radio by listeners can greatly broaden your potential audience.
+Stumped? Download 150+ content creation templates by clicking below: 
+
+content templates
+
+Download These Templates
+
+3. Social Media Marketing
+This practice promotes your brand and your content on social media channels to increase brand awareness, drive traffic, and generate leads for your business.
+
+If you're new to social platforms, you can use tools like HubSpot to connect channels like LinkedIn and Facebook in one place. This way, you can easily schedule content for multiple channels at once and monitor analytics from the platform as well.
+
+On top of connecting social accounts for posting purposes, you can also integrate your social media inboxes into HubSpot, so you can get your direct messages in one place.
+
+The channels you can use in social media marketing include:
+
+Facebook
+Twitter
+LinkedIn
+Instagram
+Snapchat
+Pinterest
+Many marketers will use these social media platforms to create a viral campaign. Partnering with a popular content creator or taking part in a trend that resonates with a wide audience is a viral marketing strategy. The purpose is to create something shareworthy in the hopes that it will organically spread across a social media channel.
+
+Don't know how to get started with social media marketing? Download our free social media content calendar to get your social strategy up and running.
+
+social-media-calendar
+
+Download These Templates
+
+4. Pay Per Click (PPC)
+PPC drives traffic to your website by paying a publisher every time your ad is clicked. One of the most common types of PPC is Google Ads, which allows you to pay for top slots on Google's search engine results pages at a price "per click" of the links you place. Other channels where you can use PPC include:
+
+Paid ads on Facebook: Here, users can pay to customize a video, image post, or slideshow, which Facebook will publish to the news feeds of people who match your business's audience.
+Twitter Ads campaigns: Here, users can pay to place a series of posts or profile badges to the news feeds of a specific audience, all dedicated to accomplishing a specific goal for your business. This goal can be website traffic, more Twitter followers, tweet engagement, or even app downloads.
+Sponsored Messages on LinkedIn: Here, users can pay to send messages directly to specific LinkedIn users based on their industry and background.
+PPC can be hard to grasp at first, so we've created a beginner-friendly guide to get you started. Download it below: 
+
+PPC template Google Ads Kit
+
+
+
+5. Affiliate Marketing
+This is a type of performance-based advertising where you receive a commission for promoting someone else's products or services on your website. Affiliate marketing channels include:
+
+Hosting video ads through the YouTube Partner Program.
+Posting affiliate links from your social media accounts.
+This is part of the relatively new wave of influencer marketing. Creating a campaign using influencers can be a highly effective form of affiliate marketing. Finding the right content creators can take your digital campaign to the next level.
+
+6. Native Advertising
+Native advertising refers to advertisements that are primarily content-led and featured on a platform alongside other, non-paid content. BuzzFeed-sponsored posts are a good example, but many people also consider social media advertising to be "native" — Facebook advertising and Instagram advertising, for example.
+
+7. Marketing Automation
+Marketing automation refers to the software that automates your basic marketing operations. Many marketing departments can automate repetitive tasks they would otherwise do manually, such as:
+
+Email newsletters: Email automation doesn't just allow you to automatically send emails to your subscribers. It can also help you shrink and expand your contact list as needed so your newsletters are only going to the people who want to see them in their inboxes.
+Social media post scheduling: If you want to grow your organization's presence on a social network, you need to post frequently. This makes manual posting a bit of an unruly process. Social media scheduling tools push your content to your social media channels for you, so you can spend more time focusing on content strategy.
+Lead-nurturing workflows: Generating leads, and converting those leads into customers, can be a long process.You can automate that process by sending leads specific emails and content once they fit certain criteria, such as when they download and open an ebook.
+Campaign tracking and reporting: Marketing campaigns can include a ton of different people, emails, content, webpages, phone calls, and more. Marketing automation can help you sort everything you work on by the campaign it's serving and then track the performance of that campaign based on the progress all of these components make over time.
+8. Email Marketing
+Companies use email marketing as a way of communicating with their audiences. Email is often used to promote content, discounts and events, as well as to direct people toward the business's website. The types of emails you might send in an email marketing campaign include:
+
+Blog subscription newsletters.
+Follow-up emails to website visitors who downloaded something.
+Customer welcome emails.
+Holiday promotions to loyalty program members.
+Tips or similar series emails for customer nurturing.
+Learn more about email marketing with our free guide: 
+
+email-guide-1
+
+
+
+9. Online PR
+Online PR is the practice of securing earned online coverage with digital publications, blogs, and other content-based websites. It's much like traditional PR but in the online space. The channels you can use to maximize your PR efforts include:
+
+Reporter outreach via social media: Talking to journalists on Twitter, for example, is a great way to develop a relationship with the press that produces earned media opportunities for your company.
+Engaging online reviews of your company: When someone reviews your company online, whether that review is good or bad, your instinct might be not to touch it. On the contrary, engaging company reviews helps you humanize your brand and deliver powerful messaging that protects your reputation.
+Engaging comments on your personal website or blog: Similar to how you'd respond to reviews of your company, responding to the people reading your content is the best way to generate productive conversation around your industry.
+If you don't have a dedicated PR team, it can be hard to get started. Luckily, we've got you covered. Download our free PR kit below: 
+
+Inbound Public Relations Guide Ebook-1
+
+
+
+ 
+
+10. Inbound Marketing
+Inbound marketing refers to a marketing methodology wherein you attract, engage, and delight customers at every stage of the buyer's journey. You can use every digital marketing tactic listed above throughout an inbound marketing strategy to create a customer experience that works with the customer, not against them. Here are some classic examples of inbound marketing versus traditional marketing:
+
+Blogging vs. pop-up ads
+Video marketing vs. commercial advertising
+Email contact lists vs. email spam
+11. Sponsored Content
+With sponsored content, you, as a brand, pay another company or entity to create and promote content that discusses your brand or service in some way.
+
+One popular type of sponsored content is influencer marketing. With this type of sponsored content, a brand sponsors an influencer in its industry to publish posts or videos related to the company on social media.
+
+Another type of sponsored content could be a blog post or article highlighting a topic, service, or brand.
+
+12. Search Engine Marketing (SEM)
+When a potential lead is searching for a product or business related to yours, it’s a great opportunity for a promotion. Paid advertising and SEO are two great strategies for promoting your business to capitalize on those future leads. Search engine marketing is another way to increase website traffic by placing paid ads on search engines. The two most popular SEM services are Bing Ads and Google Ads. These paid ads fit seamlessly on the top of search engine results pages, giving instant visibility. This is also an example of effective native advertising.
+
+13. Instant Messaging Marketing
+Marketing your products through messaging platforms is a fast way to reach potential leads, even for those who haven’t offered up their cell phone number. It’s a simple way to let your audience know about flash sales, new products, or updates about their orders. If your customers have questions or need more information, it’s also a convenient way for them to connect to customer service. You can send messages directly to a mobile phone via text or on platforms like Facebook Messenger or WhatsApp.
+
+What does a digital marketer do?
+Digital marketers are in charge of driving brand awareness and lead generation through all the digital channels — both free and paid — that are at a company's disposal. These channels include social media, the company's own website, search engine rankings, email, display advertising, and the company's blog.
+
+The digital marketer focuses on each channel's key performance indicators (KPIs) to properly measure performance. For example, a digital marketer in charge of SEO might measure their website's organic traffic. 
+
+At small companies, one person might own many digital channels and tactics described above, while larger companies typically have a specialist focused on one or two brand channels.
+
+Here are some examples of these specialists:
+
+SEO Manager
+Main KPIs: Organic traffic
+SEO managers work to rank a business on Google SERPs. Using various SEO strategies, this person might work directly with content creators to ensure the content is high-quality and up to Google’s standards, even if the company also posts this content on social media. 
+
+Content Marketing Specialist
+Main KPIs: Time on page, overall blog traffic, YouTube channel subscribers
+Content marketing specialists are digital content creators. They might keep track of a blogging calendar, or develop a content strategy that includes video. They often work with people in other departments to ensure products and campaigns are supported by promotional content on all digital channels. 
+
+Social Media Manager
+Main KPIs: Follows, Impressions, Shares
+A social media manager's role depends on each company and industry. But above all, social media managers manage social media by establishing a posting schedule for the company’s written and visual content. They might also work with a content marketing specialist to develop a strategy for which content to share on social media. 
+
+(Note: Per the KPIs above, "impressions" refers to the number of times a business's posts appear on the newsfeed of a user.)
+
+Marketing Automation Coordinator
+Main KPIs: Email open rate, campaign click-through rate, lead-generation (conversion) rate
+A marketing automation coordinator helps choose and manage the software a marketing team uses to understand customer behavior and measure business growth. Many of the marketing operations described above might be executed separately, so it’s important for there to be someone who can group these activities into individual campaigns and track performance. 
+
+Inbound Marketing vs. Digital Marketing: Which Is It?
+Inbound marketing is a methodology that uses digital marketing assets to attract, engage, and delight customers online. Digital marketing, on the other hand, is simply an umbrella term to describe online marketing tactics of any kind, regardless of whether they're considered inbound or outbound.
+
+Digital marketing is often compared to inbound marketing, but it doesn’t differentiate between ‘inbound’ and ‘outbound’ methods. It’s more of an umbrella term for all marketing that involves digital communication, while inbound marketing is more of a strategy.
+
+Digital outbound tactics put a marketing message in front of as many people as possible online — regardless of whether it's relevant or welcomed. For example, the garish banner ads you see on websites that push a product or promotion to people who aren’t necessarily ready to receive it. 
+
+Marketers who employ digital inbound tactics use online content to attract their target customers by providing assets that are helpful to them. One of the simplest yet most powerful inbound digital marketing assets is a blog, which allows your website to capitalize on the terms which your ideal customers are searching for.
+
+Does digital marketing work for all businesses?
+Digital marketing can work for any business in any industry. Regardless of what your company sells, digital marketing still involves building buyer personas to identify your audience's needs, and creating valuable online content. However, that's not to say all businesses should implement a digital marketing strategy in the same way.
+
+B2B Digital Marketing
+If your company is business-to-business (B2B), your digital marketing efforts are likely centered around online lead generation, with the end goal being for someone to speak to a salesperson. The goal of your marketing strategy might be to attract and convert the highest quality leads for your salespeople via your website and to support digital channels. 
+
+Beyond your website, you'll probably choose to focus your efforts on business-focused channels like LinkedIn, where your demographic is spending their time online.
+
+B2C Digital Marketing
+If your company is business-to-consumer (B2C), depending on the price point of your products, it's likely that the goal of your digital marketing efforts is to attract people to your website and have them become customers without ever needing to speak to a salesperson.
+
+You're probably less likely to focus on ‘leads' in their traditional sense and more likely to build an accelerated buyer's journey from when someone lands on your website to when they make a purchase. This can mean that your product features are higher up in the marketing funnel than it might be for a B2B business, and you might need to use stronger calls-to-action to inspire purchases. 
+
+For B2C companies, channels like Instagram and Pinterest are often more valuable than business-focused platforms like LinkedIn.
+
+What types of digital content should I create?
+The kind of content you create depends on your audience's needs at different stages in the buyer's journey. You should start by creating buyer personas (use these free templates, or try makemypersona.com) to identify what your audience's goals and challenges are in relation to your business. On a basic level, your online content should aim to help them meet these goals, and overcome their challenges.
+
+Then, you'll need to consider when they're most likely to be ready to consume this content in line with their stage in the buyer's journey. We call this content mapping.
+
+With content mapping, the goal is to target content according to:
+
+The characteristics of the person who will be consuming it (that's where buyer personas come in).
+How close that person is to making a purchase (i.e., their lifecycle stage).
+In terms of the format of your content, there are a lot of different things to try. Here are some options we'd recommend using at each stage of the buyer's journey:
+
+Awareness Stage
+Blog posts. Great for increasing your organic traffic when paired with a strong SEO and keyword strategy.
+Infographics. Very shareable, meaning they increase your chances of being found via social media when others share your content. (Check out these free infographic templates to get you started.)
+Short videos. Again, these are very shareable and can help your brand get found by new audiences by hosting them on platforms like YouTube.
+Consideration Stage
+Ebooks. Great for lead generation as they're generally more comprehensive than a blog post or infographic, meaning someone is more likely to exchange their contact information to receive it.
+Research reports. Again, this high-value content type is great for lead generation. Research reports and new data for your industry can also work for the awareness stage, though, as they're often picked up by the media or industry press.
+Webinars. As they're a more detailed, interactive form of video content, webinars are an effective consideration stage content format as they offer more comprehensive content than a blog post or short video.
+Decision Stage
+Case studies. Having detailed case studies on your website can be an effective form of content for those ready to make a purchasing decision, as it helps you positively influence their decision.
+Testimonials. If case studies aren't a good fit for your business, having short testimonials around your website is a good alternative. For B2C brands, think of testimonials a little more loosely. If you're a clothing brand, these might take the form of photos of how other people styled a shirt or dress, pulled from a branded hashtag where people can contribute.
+How to Do Digital Marketing
+Define your goals.
+Identify your target audience.
+Establish a budget for each digital channel.
+Strike a good balance between paid and free digital strategies.
+Create engaging content.
+Optimize your digital assets for mobile.
+Conduct keyword research.
+Iterate based on the analytics you measure.
+1. Define your goals.
+When you get started with digital marketing, it's critical to identify and define your goals since you’ll craft your strategy with them. For instance, if your goal is to increase brand awareness, you might want to focus on reaching new audiences via social media.
+
+Or maybe you want to increase sales on a specific product — if that's the case, it's more important you focus on SEO and optimizing content to get potential buyers on your website in the first place. Additionally, if sales are your goal, you might test out PPC campaigns to drive traffic through paid ads.
+
+Whatever the case, it's easiest to shape a digital marketing strategy after you've determined your company's biggest goals.
+
+2. Identify your target audience.
+We've mentioned this before, but one of the biggest benefits of digital marketing is the opportunity to target specific audiences – however, you can't take advantage of that benefit if you haven't first identified your target audience.
+
+Of course, it's important to note your target audience might vary depending on the channel or goal(s) you have for a specific product or campaign.
+
+For instance, perhaps you've noticed most of your Instagram audience is younger and prefers funny memes and quick videos — but your LinkedIn audience is older professionals looking for more tactical advice. You'll want to vary your content to appeal to these different target audiences.
+
+If you're starting from scratch, feel free to take a look at How to Find Your Target Audience.
+
+3. Establish a budget for each digital channel.
+Your budget will depend on the elements of digital marketing you use. 
+
+If you're focusing on inbound techniques like SEO, social media, and content creation for a pre-existing website, the good news is you don't need a big budget at all. You can aim to create high-quality content your audience will want to consume, where the only investment you’ll need is your time.
+
+You can get started by hosting a website and creating content using HubSpot's CMS. For those on a tight budget, you can get started using WordPress hosted on WP Engine, using a simple theme from StudioPress, and building your site without code using the Elementor Website Builder for WordPress.
+
+With outbound techniques like online advertising and purchasing email lists, there is undoubtedly some expense. What it costs comes down to what kind of visibility you want to receive as a result of the advertising.
+
+For example, to implement PPC using Google AdWords, you'll bid against other companies in your industry to appear at the top of Google's search results for keywords associated with your business.Depending on the keyword's competitiveness, this can be reasonably affordable or extremely expensive, which is why it's a good idea to focus on building your organic reach too.
+
+4. Strike a good balance between paid and free digital strategies.
+A digital marketing strategy likely needs both paid and free aspects to truly be effective.
+
+For instance, spending time building comprehensive buyer personas to identify your audience’s needs and creating high-quality online content that converts them, you’ll likely see strong results despite minimal ad spend. 
+
+However, if paid advertising is part of your digital strategy, then the results might come even quicker.
+
+Ultimately, aim to build your organic (or 'free') reach using content, SEO, and social media for more long-term, sustainable success.
+
+When in doubt, try both, and iterate on your process as you learn which channels — paid or free – perform best for your brand.
+
+5. Create engaging content.
+Once you know your audience and have a budget, it's time to start creating content for the various channels you will use. This content can be social media posts, blog posts, PPC ads, sponsored content, email marketing newsletters, and more.
+
+Of course, any content you create should be interesting and engaging to your audience because the point of marketing content is to increase brand awareness and improve lead generation.
+
+6. Optimize your digital assets for mobile.
+Another key component of digital marketing is mobile marketing. In fact, smartphone usage as a whole accounts for 69% of time spent consuming digital media in the U.S., while desktop-based digital media consumption makes up less than half — and the U.S. still isn't mobile's biggest fan compared to other countries.
+
+This means optimize your digital ads, web pages, social media images, and other digital assets for mobile devices is essential. If your company has a mobile app that enables users to engage with your brand or shop for your products, your app falls under the digital marketing umbrella, too.
+
+Those engaging with your company ovia mobile devices need to have the same positive experience as they would on a desktop. This means implementing a mobile-friendly or responsive website design to make browsing user-friendly on mobile devices. It might also mean reducing the length of your lead generation forms to create a hassle-free experience for people downloading your content on the go. As for your social media images, it's important to always have a mobile user in mind when creating them, as image dimensions are smaller on mobile devices and text can be cut-off.
+
+There are lots of ways you can optimize your digital marketing assets for mobile users, and when implementing any digital marketing strategy, it's hugely important to consider how the experience will translate on mobile devices. By ensuring this is always front-of-mind, you'll be creating digital experiences that work for your audience, and consequently achieve the results you're hoping for.
+
+7. Conduct keyword research.
+Digital marketing is all about reaching targeted audiences through personalized content — all of which can't happen without effective keyword research.
+
+Conducting keyword research is critical for optimizing your website and content for SEO and ensuring people can find your business through search engines. Additionally, social media keyword research can also help market your products or services on various social channels.
+
+You'll still want to conduct keyword research even if you don't have a full-time SEO strategist. Try creating a list of high-performing keywords related to your products or services, and consider long-tail variations for added opportunities.
+
+8. Iterate based on the analytics you measure.
+Finally, to create an effective digital marketing strategy for the long term, it's vital your team learn how to pivot based on analytics.
+
+For instance, perhaps after a couple of months you find your audience isn't as interested in your content on Instagram anymore — but they love what you're creating on Twitter. Sure, this might be an opportunity to re-examine your Instagram strategy as a whole, but it might also be a sign that your audience prefers a different channel to consume branded content.
+
+Alternatively, perhaps you find an older web page isn't getting the traffic it used to. You might consider updating the page or getting rid of it entirely to ensure visitors are finding the freshest, most relevant content for their needs.
+
+Digital marketing provides businesses with incredibly flexible opportunities for continuous growth — but it's up to you to take advantage of them.
+
+I'm ready to try digital marketing. Now what?
+If you're already doing digital marketing, you're likely reaching some segments of your audience online. No doubt you can think of some areas of your strategy that could use a little improvement, though.
+
+That's why we created a step-by-step guide to help you build a digital marketing strategy that's truly effective, whether you're a complete beginner or have a little more experience.
+
+Next, let’s look at some examples of digital marketing that will be sure to inspire you.
+
+Digital Marketing Examples
+Lego's Rebuild the World Campaign
+Dove's Reverse Selfie Campaign
+Jennifer Lopez's #InTheMorningChallenge
+Always' #DayoftheGirl Campaign
+Topicals - Email Marketing
+Ashley White - Affiliate Marketing
+Samsonite - Search Engine Marketing
+Yes Williamsburg - Sponsored Ad
+HubSpot Blog - Content Offers
+For Keeps Bookstore - Local Business SEO
+1. Lego's Rebuild the World Campaign
+digital marketing examples: lego
+
+Image Source
+
+This is a great example of a digital marketing campaign because it says something about the brand. In this campaign, Lego takes a stance on important global issues as a way to connect with its audience.
+
+Nowadays, it's becoming increasingly important for companies to discuss global issues and show alignment with their customers in that way. The major play of this campaign is to help share the brand's story and messaging.
+
+Given that 82% of customers shop from brands that share their values, this was a good move for the toy brand.
+
+2. Dove's Reverse Selfie Campaign
+digital marketing examples: dove
+
+Image Source
+
+As we continue to learn how social media affects children, especially young girls, Dove decided to send a message. The Reverse Selfie campaign shows the reverse of what a teen girl did to prepare for a selfie and photoshop the picture. The purpose is to increase awareness of how social media can negatively impact self-esteem.
+
+This is an excellent example of what marketing content can look like when you know your audience intimately. By knowing its audience of real women, many of them parents, Dove was able to bring light to an often overlooked consequence of the growth of social media.
+
+3. Jennifer Lopez's #InTheMorningChallenge
+
+digital marketing examples: jennifer lopez
+
+Image Source
+
+In this social media campaign, Jennifer Lopez created a dance challenge to promote her new song. With this challenge, fans would do the same dance in their pajamas and in dress up clothes.
+
+This was a successful social media campaign as the video had over 16 million views and over 5,000 posts.
+
+Using social media is a great way to engage your audience and get them to participate with your brand one on one.
+
+4. Always' #DayoftheGirl Campaign
+digital marketing examples: always
+
+Image Source
+
+This is another digital campaign focused on emotional marketing. With this campaign, Always asked their own employees what tips they would give to girls. The women offer their valuable insight in a way meant to inspire everyone for International Day of the Girl, an international holiday that occurs annually in October.
+
+Again, this isn't a campaign where the product is mentioned much, but that isn't the point. The point of this digital campaign was to inspire its audience. With that message, they could reach even more people, increase brand awareness, and show their audience that the brand aligns with their values.
+
+Now we’ll look at some examples of different types of digital marketing. 
+
+5. Topicals - Email Marketing
+Topicals, a skincare company, uses email marketing as part of a digital marketing strategy. The image below displays a marketing email that advertises a subscribe and save deal, where people get 20% off refills if they choose to subscribe.
+
+digital marketing examples: topicals email newsletter
+
+Image Source
+
+6. Ashley White - Affiliate Marketing
+Ashley White is an esthetician who uses affiliate marketing. In her Twitter profile, she includes a link to a personal Linktree page where she shares referral codes and discounts for people that shop with her codes and links. 
+
+digital marketing examples: skinclasshero affiliate marketing
+
+Image Source
+
+As she markets herself as an ambassador for these companies, the businesses generate brand awareness as someone visiting her Linktree might be inspired to try a new brand (and an influencer recommendation can make this inspiration even more powerful). 
+
+7. Samsonite - Search Engine Marketing
+Search engine marketing is a great example of digital marketing, where brands bid on keywords and showcase ads for their products in SERPs when someone queries a related keyword. 
+
+The image below is an example from Samsonite, where a query for the word “luggage” surfaces various luggage options from known brands that have created ads to feature their products front and center in search results. 
+
+digital marketing examples: samsonite search engine marketing
+
+Image Source
+
+8. Yes Williamsburg - Sponsored Ad 
+Yes Williamsburg uses native advertising within its Instagram feed to share a paid sponsorship with a local Brooklyn business. The Reel is tagged as a paid partnership, but it appears organically in a users feed like a standard post. The ad is also in line with Yes Williamsbug’s usual content of sharing information about unique local businesses for people to try. 
+
+
+9. HubSpot Blog - Content Offers
+Content offers are a form of digital marketing where businesses share helpful content with site visitors that it knows will benefit them. For example, the HubSpot Blog often features content offers and learning material for people to learn more about the blog topic. 
+
+For its blog post 11 Marketing Strategies for Black Owned Businesses, readers that want to know more about developing a marketing strategy can download an ebook for further learning. 
+
+digital marketing examples: hubspot blog content offers
+
+Image Source
+
+10. For Keeps Bookstore - Local Business SEO
+A search engine optimization strategy for many local businesses is an optimized Google My Business profile to appear in local search results when people look for products or services related to what you offer. 
+
+For Keeps Bookstore, a local bookstore in Atlanta, GA, has optimized its Google My Business profile for local SEO so it appears in queries for “atlanta bookstore.”
+
+digital marketing examples: for keeps bookstore local SEO marketing
+
+Image Source
+
+Integrate Digital Marketing Into Your Strategy
+Any opportunity where you can connect to your audience is an opportunity to convert a lead or acquire a customer. Digital marketing creates so many more of those opportunities by allowing you to reach prospective buyers through a wide variety of channels. Whether it’s social media platforms, websites, text messages, or any online medium, it’s an invaluable way to promote your business, service, or product.
+
+Editor's Note: This blog post was originally published in September 2019, but was updated for comprehensiveness.
