@@ -1,2 +1,5 @@
 .pytest_cache
 __pycache__
+credentials.json
+token.json
+**/data/vectorstore
