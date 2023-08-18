@@ -3,3 +3,4 @@ __pycache__
 credentials.json
 token.json
 **/data/vectorstore
+content/chapter_7/.chroma
