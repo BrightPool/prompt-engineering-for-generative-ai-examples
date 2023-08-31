@@ -1,0 +1,65 @@
+{
+    "data": {
+        "pid-2cc5e602": {
+            "cid-f5e419e4": {
+                "gpt-3.5-turbo": {
+                    "0": {
+                        "content": "\"Neural Networks: Unraveling the Mysteries of Artificial Brains - A Hilarious Guide!\"",
+                        "tokens": 162,
+                        "cost": 0.0002545,
+                        "feedback": 1
+                    },
+                    "2": {
+                        "content": "\"The Ultimate Brainiac's Handbook: Unraveling the Mysteries of Neural Networks\"",
+                        "tokens": 319,
+                        "cost": 0.0004990000000000001,
+                        "feedback": 0
+                    },
+                    "4": {
+                        "content": "\"The Brainiac's Handbook: Unraveling the Wonders of Neural Networks\"",
+                        "tokens": 475,
+                        "cost": 0.0007415000000000002,
+                        "feedback": 0
+                    }
+                }
+            }
+        },
+        "pid-d38f706d": {
+            "cid-f5e419e4": {
+                "gpt-3.5-turbo": {
+                    "0": {
+                        "content": "\"A Comprehensive Guide to Understanding Neural Networks: Unleashing the Power of Artificial Intelligence and Computational Models\"",
+                        "tokens": 156,
+                        "cost": 0.00024400000000000002,
+                        "feedback": 0
+                    },
+                    "2": {
+                        "content": "\"A Comprehensive Guide to Neural Networks: Understanding the Structure and Function of Artificial Neural Networks in Artificial Intelligence\"",
+                        "tokens": 312,
+                        "cost": 0.00048800000000000004,
+                        "feedback": 1
+                    },
+                    "4": {
+                        "content": "\"A Comprehensive Guide to Neural Networks: Unveiling the Power of Artificial Intelligence through Mimicking Biological Neurons\"",
+                        "tokens": 470,
+                        "cost": 0.0007360000000000001,
+                        "feedback": 1
+                    }
+                }
+            }
+        }
+    },
+    "prompts": {
+        "pid-2cc5e602": "Generate a title tag for this blog post on topic: Neural networks, Title: A Comprehensive Guide to Neural Networks. Here is the following blog post text: # What are Neural Networks?\n\nNeural networks, also known as artificial neural networks (ANNs) or simulated neural networks (SNNs), are computational models inspired by the structure and function of the human brain. They combine computer science and statistics to solve complex problems in the field of artificial intelligence (AI). \n\n## Mimicking Biological Neurons\n\nNeural networks mimic the way biological neurons signal to one another. They consist of interconnected nodes, or artificial neurons, ... Write it in the style of {style}",
+        "pid-d38f706d": "Generate a title tag for this blog post on topic: Neural networks, Title: A Comprehensive Guide to Neural Networks. Here is the following blog post text: # What are Neural Networks?\n\nNeural networks, also known as artificial neural networks (ANNs) or simulated neural networks (SNNs), are computational models inspired by the structure and function of the human brain. They combine computer science and statistics to solve complex problems in the field of artificial intelligence (AI). \n\n## Mimicking Biological Neurons\n\nNeural networks mimic the way biological neurons signal to one another. They consist of interconnected nodes, or artificial neurons, ... Make it very professional"
+    },
+    "cases": {
+        "cid-f5e419e4": {
+            "style": "Funny"
+        }
+    },
+    "models": [
+        "gpt-3.5-turbo"
+    ],
+    "runs": 3
+}

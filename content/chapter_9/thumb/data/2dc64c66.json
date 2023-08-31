@@ -1,0 +1,88 @@
+{
+    "data": {
+        "pid-2cc5e602": {
+            "cid-f5e419e4": {
+                "gpt-3.5-turbo": {
+                    "0": {
+                        "content": "\"A Journey into the Mind of AI: A Comprehensive Guide to Neural Networks - Unlocking the Secrets of Artificial Brains!\"",
+                        "tokens": 163,
+                        "cost": 0.0002565,
+                        "feedback": 0
+                    },
+                    "2": {
+                        "content": "\"Neural Networks: Unleashing the Power of Artificial Brains - A Comically Comprehensive Guide!\"",
+                        "tokens": 323,
+                        "cost": 0.0005070000000000001,
+                        "feedback": 1
+                    }
+                }
+            },
+            "cid-247f4ffc": {
+                "gpt-3.5-turbo": {
+                    "0": {
+                        "content": "\"A Comprehensive Guide to Neural Networks: Unleashing the Power of Artificial Intelligence with Mimicked Biological Neurons\"",
+                        "tokens": 161,
+                        "cost": 0.0002525,
+                        "feedback": 1
+                    },
+                    "2": {
+                        "content": "\"A Comprehensive Guide to Neural Networks: Unleashing the Power of Artificial Intelligence through Mimicking the Human Brain\"",
+                        "tokens": 322,
+                        "cost": 0.000505,
+                        "feedback": 1
+                    }
+                }
+            }
+        },
+        "pid-d38f706d": {
+            "cid-f5e419e4": {
+                "gpt-3.5-turbo": {
+                    "0": {
+                        "content": "\"A Comprehensive Guide to Neural Networks: Understanding the Structure and Function of Artificial Neural Networks in Artificial Intelligence (AI)\"",
+                        "tokens": 158,
+                        "cost": 0.000248,
+                        "feedback": 0
+                    },
+                    "2": {
+                        "content": "\"A Comprehensive Guide to Neural Networks: Unveiling the Power of Artificial Intelligence\"",
+                        "tokens": 310,
+                        "cost": 0.00048400000000000006,
+                        "feedback": 1
+                    }
+                }
+            },
+            "cid-247f4ffc": {
+                "gpt-3.5-turbo": {
+                    "0": {
+                        "content": "\"A Comprehensive Guide to Neural Networks: Understanding and Utilizing the Power of Artificial Neural Networks in Artificial Intelligence\"",
+                        "tokens": 157,
+                        "cost": 0.000246,
+                        "feedback": 0
+                    },
+                    "2": {
+                        "content": "\"A Comprehensive Guide to Neural Networks: Understanding the Structure and Function of Artificial Neural Networks in AI\"",
+                        "tokens": 312,
+                        "cost": 0.00048800000000000004,
+                        "feedback": 0
+                    }
+                }
+            }
+        }
+    },
+    "prompts": {
+        "pid-2cc5e602": "Generate a title tag for this blog post on topic: Neural networks, Title: A Comprehensive Guide to Neural Networks. Here is the following blog post text: # What are Neural Networks?\n\nNeural networks, also known as artificial neural networks (ANNs) or simulated neural networks (SNNs), are computational models inspired by the structure and function of the human brain. They combine computer science and statistics to solve complex problems in the field of artificial intelligence (AI). \n\n## Mimicking Biological Neurons\n\nNeural networks mimic the way biological neurons signal to one another. They consist of interconnected nodes, or artificial neurons, ... Write it in the style of {style}",
+        "pid-d38f706d": "Generate a title tag for this blog post on topic: Neural networks, Title: A Comprehensive Guide to Neural Networks. Here is the following blog post text: # What are Neural Networks?\n\nNeural networks, also known as artificial neural networks (ANNs) or simulated neural networks (SNNs), are computational models inspired by the structure and function of the human brain. They combine computer science and statistics to solve complex problems in the field of artificial intelligence (AI). \n\n## Mimicking Biological Neurons\n\nNeural networks mimic the way biological neurons signal to one another. They consist of interconnected nodes, or artificial neurons, ... Make it very professional"
+    },
+    "cases": {
+        "cid-f5e419e4": {
+            "style": "Funny"
+        },
+        "cid-247f4ffc": {
+            "style": "Sweet"
+        }
+    },
+    "models": [
+        "gpt-3.5-turbo"
+    ],
+    "runs": 2
+}
