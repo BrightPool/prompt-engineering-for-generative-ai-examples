@@ -2,6 +2,7 @@ from typing import Optional, Type, Callable, List
 from langchain.callbacks.manager import CallbackManagerForToolRun
 from pydantic import BaseModel, Field
 from langchain.tools import BaseTool
+import json
 
 
 class ArgsSchema(BaseModel):
@@ -38,4 +39,6 @@ class HumanInTheLoop(BaseTool):
             self.prompt_func(question)
             answer = self.input_func()
             questions_and_answers.append({"question": question, "answer": answer})
-        return questions_and_answers
+        with open("questions_and_answers.json", "w") as f:
+            json.dump(questions_and_answers, f)
+        return "Your output has been saved to a file called questions_and_answers.json."
