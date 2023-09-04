@@ -1,0 +1,58 @@
+from langchain.document_loaders import AsyncHtmlLoader, AsyncChromiumLoader
+from langchain.document_transformers import Html2TextTransformer
+from langchain.schema import Document
+import os
+import pandas as pd
+from serpapi import GoogleSearch
+from typing import List
+
+
+def get_html_content_from_urls(
+    df: pd.DataFrame, number_of_urls: int = 3, url_column: str = "link"
+) -> List[Document]:
+    # Get the HTML content of the first 3 URLs:
+    urls = df[url_column].values[:number_of_urls].tolist()
+    # If there is only one URL, convert it to a list:
+    if isinstance(urls, str):
+        urls = [urls]
+    # Check for empty URLs:
+    urls = [url for url in urls if url != ""]
+
+    # Check for duplicate URLs:
+    urls = list(set(urls))
+
+    # Throw error if no URLs are found:
+    if len(urls) == 0:
+        raise ValueError("No URLs found!")
+    # loader = AsyncHtmlLoader(urls) # Faster but might not always work.
+    loader = AsyncChromiumLoader(urls)
+    docs = loader.load()
+    return docs
+
+
+def extract_text_from_webpages(documents: List[Document]):
+    html2text = Html2TextTransformer()
+    return html2text.transform_documents(documents)
+
+
+def collect_serp_data_and_extract_text_from_webpages(topic: str) -> List[Document]:
+    search = GoogleSearch(
+        {
+            "q": topic,
+            "location": "Austin,Texas",
+            "api_key": os.environ["SERPAPI_API_KEY"],
+        }
+    )
+    # Get the results:
+    result = search.get_dict()
+
+    # Put the results in a Pandas DataFrame:
+    serp_results = pd.DataFrame(result["organic_results"])
+
+    # Extract the html content from the URLs:
+    html_documents = get_html_content_from_urls(serp_results)
+
+    # Extract the text from the URLs:
+    text_documents = extract_text_from_webpages(html_documents)
+
+    return text_documents
