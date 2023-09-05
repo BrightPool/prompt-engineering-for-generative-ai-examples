@@ -1,0 +1,10 @@
+langchain
+google-search-results
+pandas 
+html2text 
+pytest-playwright 
+chromadb
+pydantic
+gradio
+openai
+tiktoken

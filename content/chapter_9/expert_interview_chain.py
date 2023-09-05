@@ -1,17 +1,11 @@
-from langchain.chat_models import ChatOpenAI
-from typing import Optional, Type, List
-from langchain.callbacks.manager import CallbackManagerForToolRun
+# Standard libraries
 from pydantic import BaseModel, Field
+from typing import List, Any
+
+# Langchain libraries
+from langchain.chat_models import ChatOpenAI
 from langchain.output_parsers import PydanticOutputParser
 from langchain.prompts import SystemMessagePromptTemplate
-from langchain.tools import BaseTool
-
-
-class ArgsSchema(BaseModel):
-    """Input for Interview questions"""
-
-    document_summaries: str = Field(..., description="The document summaries.")
-    topic: str = Field(..., description="The topic to ask questions about.")
 
 
 class Question(BaseModel):
@@ -24,55 +18,43 @@ class Question(BaseModel):
 class InterviewQuestions(BaseModel):
     """Output for Interview questions"""
 
-    questions: List[Question]
+    questions: List[Question] = Field(
+        ..., min_items=5, max_items=5, description="List of interview questions."
+    )
 
 
-class GenerateInterviewQuestions(BaseTool):
-    """Tool that generates interview questions."""
+class InterviewChain:
+    def __init__(self, topic: str, document_summaries: Any):
+        self.topic = topic
+        self.llm = ChatOpenAI(temperature=0)
+        self.document_summaries = document_summaries
 
-    name: str = "generate_interview_questions"
-    args_schema: Type[BaseModel] = ArgsSchema
-    description: str = "Generate interview questions for a topic."
-    return_direct: bool = False
-
-    def _run(
-        self,
-        document_summaries: str,
-        topic: str,
-        run_manager: Optional[CallbackManagerForToolRun] = None,
-        **kwargs
-    ) -> str:
+    def __call__(self) -> Any:
         # Create an LLM:
         chat = ChatOpenAI(temperature=0.6)
 
-        print(kwargs)
-
         # Set up a parser + inject instructions into the prompt template:
         parser = PydanticOutputParser(pydantic_object=InterviewQuestions)
+
         system_message = """You are a content SEO researcher. Previously you have summarized and extracted key points from SERP results. 
         The insights gained will be used to do content research and we will compare the key points, insights and summaries across multiple articles.
         You are now going to interview a content expert. You will ask them questions about the following topic: {topic}.
 
         You must follow the following rules:
         - Return a list of questions that you would ask a content expert about the topic.
-        - You must ask at least 5 questions.
+        - You must ask at least and at most 5 questions.
         - You are looking for information gain and unique insights that are not already covered in the {document_summaries} information.
         - You must ask questions that are open-ended and not yes/no questions.
         {format_instructions}
         """
         system_prompt = SystemMessagePromptTemplate.from_template(system_message)
         system_message = system_prompt.format(
-            document_summaries=document_summaries,
-            topic=topic,
+            document_summaries=self.document_summaries,
+            topic=self.topic,
             format_instructions=parser.get_format_instructions(),
         )
+        # Run the chat:
         result = chat([system_message])
-        return result.content
 
-    async def arun(
-        self,
-        source_path: str,
-        destination_path: str,
-        run_manager: Optional[CallbackManagerForToolRun] = None,
-    ) -> str:
-        raise NotImplementedError("arun not implemented")
+        # Parse the chat:
+        return parser.parse(result.content)

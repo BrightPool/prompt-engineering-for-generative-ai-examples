@@ -1,5 +1,4 @@
-import json
-from typing import List, Dict, Any
+from typing import List, Any
 
 # Libraries and Modules for Models
 from pydantic import BaseModel
@@ -14,22 +13,19 @@ class BlogOutline(BaseModel):
     sub_headings: List[SubHeading]
 
 
-# Langchain libraries
+# Langchain libraries:
 from langchain.prompts.chat import ChatPromptTemplate, SystemMessagePromptTemplate
 from langchain.output_parsers import PydanticOutputParser
 from langchain.chat_models import ChatOpenAI
 
-# Constants
-DATA_FILE = "questions_and_answers.json"
+# Custom types:
+from custom_summarize_chain import DocumentSummary
 
 
 class BlogOutlineGenerator:
-    def __init__(self, topic: str):
+    def __init__(self, topic: str, questions_and_answers: Any):
         self.topic = topic
-
-        # Load the questions and answers data
-        with open(DATA_FILE, "r") as f:
-            self.questions_and_answers = json.load(f)
+        self.questions_and_answers = questions_and_answers
 
         # Create a prompt
         prompt_content = """
@@ -53,7 +49,7 @@ class BlogOutlineGenerator:
         # Set up the chain
         self.outline_chain = self.chat_prompt | ChatOpenAI() | self.parser
 
-    def generate_outline(self, summaries: List[Dict[str, Any]]) -> Any:
+    def generate_outline(self, summaries: List[DocumentSummary]) -> Any:
         return self.outline_chain.invoke(
             {
                 "topic": self.topic,

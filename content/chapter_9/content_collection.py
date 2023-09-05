@@ -7,7 +7,14 @@ from serpapi import GoogleSearch
 from typing import List
 
 
-def get_html_content_from_urls(
+class ChromiumLoader(AsyncChromiumLoader):
+    async def load(self):
+        raw_text = [await self.ascrape_playwright(url) for url in self.urls]
+        # Return the raw documents:
+        return [Document(page_content=text) for text in raw_text]
+
+
+async def get_html_content_from_urls(
     df: pd.DataFrame, number_of_urls: int = 3, url_column: str = "link"
 ) -> List[Document]:
     # Get the HTML content of the first 3 URLs:
@@ -25,8 +32,8 @@ def get_html_content_from_urls(
     if len(urls) == 0:
         raise ValueError("No URLs found!")
     # loader = AsyncHtmlLoader(urls) # Faster but might not always work.
-    loader = AsyncChromiumLoader(urls)
-    docs = loader.load()
+    loader = ChromiumLoader(urls)
+    docs = await loader.load()
     return docs
 
 
@@ -35,7 +42,9 @@ def extract_text_from_webpages(documents: List[Document]):
     return html2text.transform_documents(documents)
 
 
-def collect_serp_data_and_extract_text_from_webpages(topic: str) -> List[Document]:
+async def collect_serp_data_and_extract_text_from_webpages(
+    topic: str,
+) -> List[Document]:
     search = GoogleSearch(
         {
             "q": topic,
@@ -50,7 +59,7 @@ def collect_serp_data_and_extract_text_from_webpages(topic: str) -> List[Documen
     serp_results = pd.DataFrame(result["organic_results"])
 
     # Extract the html content from the URLs:
-    html_documents = get_html_content_from_urls(serp_results)
+    html_documents = await get_html_content_from_urls(serp_results)
 
     # Extract the text from the URLs:
     text_documents = extract_text_from_webpages(html_documents)

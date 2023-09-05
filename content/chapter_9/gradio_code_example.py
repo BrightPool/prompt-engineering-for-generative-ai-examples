@@ -2,15 +2,19 @@ import asyncio
 from langchain.chat_models.openai import ChatOpenAI
 from langchain.output_parsers import PydanticOutputParser
 from langchain.text_splitter import RecursiveCharacterTextSplitter
-from content_collection import collect_serp_data_and_extract_text_from_webpages
-from custom_summarize_chain import create_all_summaries, DocumentSummary
-from expert_interview_agent import AgentSetup
-from article_outline_generation import BlogOutlineGenerator
-from article_generation import ContentGenerator
 import gradio as gr
 import os
 
-os.environ["SERPAPI_API_KEY"] = "SET_THIS_API_KEY"
+# Custom imports:
+from content_collection import collect_serp_data_and_extract_text_from_webpages
+from custom_summarize_chain import create_all_summaries, DocumentSummary
+from expert_interview_chain import InterviewChain
+from article_outline_generation import BlogOutlineGenerator
+from article_generation import ContentGenerator
+
+os.environ["SERPAPI_API_KEY"] = ""
+
+import gradio as gr
 
 
 def get_summary(topic):
@@ -29,7 +33,7 @@ def get_summary(topic):
 
 async def async_get_summary(topic):
     # Extract content from webpages into LangChain documents:
-    text_documents = collect_serp_data_and_extract_text_from_webpages(topic=topic)
+    text_documents = await collect_serp_data_and_extract_text_from_webpages(topic=topic)
 
     # Create summaries using LLM:
     llm = ChatOpenAI(temperature=0)
@@ -37,17 +41,12 @@ async def async_get_summary(topic):
         chunk_size=1500, chunk_overlap=400
     )
     parser = PydanticOutputParser(pydantic_object=DocumentSummary)
+    # Create the summaries:
     summaries = await create_all_summaries(text_documents, parser, llm, text_splitter)
 
-    # Expert Interview Questions:
-    agent = AgentSetup(topic=topic)
-    document_summaries_message = (
-        f"document_summaries: {[s.dict() for s in summaries]}"
-        f"topic: {topic}"
-        f"---"
-        f"Use the above to make interview questions, then I want to answer them."
-    )
-    interview_questions = agent.run(document_summaries_message)
+    # Create interview questions:
+    interview_chain = InterviewChain(topic=topic, document_summaries=summaries)
+    interview_questions = interview_chain()
 
     return text_documents, summaries, interview_questions
 
@@ -77,6 +76,13 @@ def generate_content(
 
 
 with gr.Blocks() as demo:
+    with gr.Row():
+        topic = gr.Textbox(label="Topic", scale=70, value="Memetics")
+        mock_question = gr.outputs.Textbox(
+            label="Question from Tool"
+        )  # Display the tool's question
+        user_answer = gr.Textbox(label="Your Answer", scale=10)  # Accept user's answer
+
     with gr.Row():
         topic = gr.Textbox(label="Topic", scale=85, value="Memetics")
         summarize_btn = gr.Button("Summarize", scale=15)

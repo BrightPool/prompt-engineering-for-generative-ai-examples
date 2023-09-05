@@ -5,3 +5,4 @@ token.json
 **/data/vectorstore
 .chroma
 **/.chroma
+test_env
