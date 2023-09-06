@@ -71,7 +71,7 @@ class ContentGenerator:
 
     def generate_blog_post(self) -> List[str]:
         blog_post = []
-
+        print("Generating the blog post...\n---")
         for subheading in self.outline.sub_headings:
             k = 5  # Initialize k
             while k >= 0:
@@ -110,4 +110,5 @@ class ContentGenerator:
                         "All attempts to fetch relevant documents have failed. Using an empty string for relevant_documents."
                     )
                     relevant_documents = ""
+        print("Finished generating the blog post!\n---")
         return blog_post

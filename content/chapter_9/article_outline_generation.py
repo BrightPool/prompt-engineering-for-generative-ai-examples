@@ -50,7 +50,8 @@ class BlogOutlineGenerator:
         self.outline_chain = self.chat_prompt | ChatOpenAI() | self.parser
 
     def generate_outline(self, summaries: List[DocumentSummary]) -> Any:
-        return self.outline_chain.invoke(
+        print("Generating the outline...\n---")
+        result = self.outline_chain.invoke(
             {
                 "topic": self.topic,
                 "document_summaries": [s.dict() for s in summaries],
@@ -58,3 +59,5 @@ class BlogOutlineGenerator:
                 "format_instructions": self.parser.get_format_instructions(),
             }
         )
+        print("Finished generating the outline!\n---")
+        return result

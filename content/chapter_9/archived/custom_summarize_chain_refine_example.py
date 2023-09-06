@@ -1,14 +1,12 @@
 import asyncio
+from langchain.chains.summarize import load_summarize_chain
 from langchain.chat_models import ChatOpenAI
+from langchain.prompts import PromptTemplate
 from langchain.output_parsers import PydanticOutputParser
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.schema import Document
 from pydantic import BaseModel
-from langchain.chains import LLMChain
-from langchain.chains.combine_documents.stuff import StuffDocumentsChain
 from typing import Dict, List, Optional, Union
-import time
-from langchain.prompts import PromptTemplate
 
 
 class DocumentSummary(BaseModel):
@@ -30,12 +28,9 @@ async def create_summary_from_text(
     # Split the parent document into chunks:
     split_docs = text_splitter.split_documents([document])
 
-    # If there are no documents after splitting, return None:
+    # If there are no documents, return None:
     if len(split_docs) == 0:
         return None
-
-    # Get the first document, which will be the only document to be summarized:
-    document = split_docs[0]
 
     # Run a refine summarization chain that extracts unique key points and opinions within an article:
     prompt_template = """Act as a content SEO researcher. You are interested in summarizing and extracting key points from the following text. 
@@ -44,29 +39,42 @@ async def create_summary_from_text(
     - You must analyze the text and extract the key points and opinions from the following text
     - You must extract the key points and opinions from the following text:
     {text}
+
     {format_instructions}
     """
+    prompt = PromptTemplate.from_template(prompt_template)
 
-    # Define LLM chain
-    llm = ChatOpenAI(temperature=0, model_name="gpt-3.5-turbo-16k")
-    llm_chain = LLMChain(llm=llm, prompt=PromptTemplate.from_template(prompt_template))
+    # Refine template:
+    refine_template = (
+        "Your job is to produce a final summary.\n"
+        "We have provided an existing summary, key points, and expert opinions up to a certain point: {existing_answer}\n"
+        "We have the opportunity to refine the existing content (only if needed) with some more context below.\n"
+        "------------\n"
+        "{text}\n"
+        "------------\n"
+        "Given the new context, refine the original summary.\n"
+        "If the context isn't useful or does not provide additional key points or expert opinions, you must return the original summary."
+        "{format_instructions}"
+    )
+    refine_prompt = PromptTemplate.from_template(refine_template)
+
+    chain = load_summarize_chain(
+        llm=llm,
+        chain_type="refine",
+        question_prompt=prompt,
+        refine_prompt=refine_prompt,
+        return_intermediate_steps=True,
+        input_key="input_documents",
+        output_key="output_text",
+    )
 
     print("Summarizing the data!")
-
-    # Start time:
-    start_time = time.time()
-    stuff_chain = StuffDocumentsChain(
-        llm_chain=llm_chain,
-        document_variable_name="text",
-    )
-    summary_result = await stuff_chain._acall(
+    summary_result = await chain._acall(
         inputs={
-            "input_documents": [document],
+            "input_documents": split_docs,
             "format_instructions": parser.get_format_instructions(),
         },
     )
-    print(f"Time taken: {time.time() - start_time}")
-    print("Finished summarizing the data!\n---" "")
 
     document_summary = parser.parse(summary_result["output_text"])
     document_summary.metadata = document.metadata
