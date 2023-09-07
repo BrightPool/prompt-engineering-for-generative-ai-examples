@@ -15,7 +15,6 @@ from article_generation import ContentGenerator
 from image_generation_chain import create_image
 
 os.environ["SERPAPI_API_KEY"] = ""
-os.environ["STABILITY_API_KEY"] = ""
 
 
 def get_summary(topic):
@@ -140,7 +139,10 @@ with gr.Blocks() as demo:
 
             # Placeholder for image and prompt generation:
             generated_image = create_image(title=outline_result.title)
+            # Make this into a PIL image:
+            import PIL.Image as Image
 
+            generated_image = Image.open(generated_image[0])
             return generated_text, generated_image
 
     with gr.Row():
@@ -159,8 +161,8 @@ with gr.Blocks() as demo:
             ],
         )
 
-    clear_btn = gr.Button("Clear", scale=15)
-    generate_btn = gr.Button("Generate", scale=30)
+    clear_btn = gr.Button("Clear All Outputs", scale=15)
+    generate_btn = gr.Button("Generate Blog Post & Image", scale=30)
 
     with gr.Row():
         with gr.Column():

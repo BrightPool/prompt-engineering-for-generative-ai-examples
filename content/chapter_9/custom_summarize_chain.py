@@ -16,8 +16,8 @@ class DocumentSummary(BaseModel):
     writing_style: str
     key_points: List[str]
     expert_opinions: Optional[List[str]] = None
-    metadata: Dict[
-        str, str
+    metadata: Optional[
+        Dict[str, str]
     ] = {}  # This comes natively from the LangChain document loader
 
 
@@ -35,7 +35,7 @@ async def create_summary_from_text(
         return None
 
     # Get the first document, which will be the only document to be summarized:
-    document = split_docs[0]
+    first_document = split_docs[0]
 
     # Run a refine summarization chain that extracts unique key points and opinions within an article:
     prompt_template = """Act as a content SEO researcher. You are interested in summarizing and extracting key points from the following text. 
@@ -61,13 +61,12 @@ async def create_summary_from_text(
     )
     summary_result = await stuff_chain._acall(
         inputs={
-            "input_documents": [document],
+            "input_documents": [first_document],
             "format_instructions": parser.get_format_instructions(),
         },
     )
     print(f"Time taken: {time.time() - start_time}")
     print("Finished summarizing the data!\n---" "")
-
     document_summary = parser.parse(summary_result["output_text"])
     document_summary.metadata = document.metadata
     return document_summary
