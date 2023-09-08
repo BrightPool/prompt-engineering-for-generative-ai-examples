@@ -9,6 +9,12 @@ engine_id = "stable-diffusion-xl-1024-v1-0"
 api_host = os.getenv("API_HOST", "https://api.stability.ai")
 api_key = os.getenv("STABILITY_API_KEY", "INSERT_YOUR_IMAGE_API_KEY_HERE")
 
+if api_key == "INSERT_YOUR_IMAGE_API_KEY_HERE":
+    raise Exception(
+        "You need to insert your API key in the image_generation_chain.py file. "
+        "You can get your API key from https://platform.openai.com/"
+    )
+
 
 def create_image(title) -> str:
     chat = ChatOpenAI()

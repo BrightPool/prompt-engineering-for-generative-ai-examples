@@ -14,7 +14,13 @@ from article_outline_generation import BlogOutlineGenerator
 from article_generation import ContentGenerator
 from image_generation_chain import create_image
 
+# Check if the SERPAPI_API_KEY is set:
 os.environ["SERPAPI_API_KEY"] = "INSERT_API_KEY_HERE"
+if os.getenv("SERPAPI_API_KEY") == "INSERT_API_KEY_HERE":
+    raise Exception(
+        "You need to insert your API key in the gradio_code_example.py file. "
+        "You can get your API key from https://serpapi.com/dashboard"
+    )
 
 
 def get_summary(topic):
