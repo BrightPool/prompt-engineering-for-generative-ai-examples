@@ -19,9 +19,11 @@ async def get_html_content_from_urls(
 ) -> List[Document]:
     # Get the HTML content of the first 3 URLs:
     urls = df[url_column].values[:number_of_urls].tolist()
+
     # If there is only one URL, convert it to a list:
     if isinstance(urls, str):
         urls = [urls]
+
     # Check for empty URLs:
     urls = [url for url in urls if url != ""]
 

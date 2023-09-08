@@ -7,7 +7,7 @@ import uuid
 
 engine_id = "stable-diffusion-xl-1024-v1-0"
 api_host = os.getenv("API_HOST", "https://api.stability.ai")
-api_key = os.getenv("STABILITY_API_KEY")
+api_key = os.getenv("STABILITY_API_KEY", "INSERT_YOUR_IMAGE_API_KEY_HERE")
 
 
 def create_image(title) -> str:

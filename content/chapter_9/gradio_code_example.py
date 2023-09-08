@@ -14,7 +14,7 @@ from article_outline_generation import BlogOutlineGenerator
 from article_generation import ContentGenerator
 from image_generation_chain import create_image
 
-os.environ["SERPAPI_API_KEY"] = ""
+os.environ["SERPAPI_API_KEY"] = "INSERT_API_KEY_HERE"
 
 
 def get_summary(topic):
