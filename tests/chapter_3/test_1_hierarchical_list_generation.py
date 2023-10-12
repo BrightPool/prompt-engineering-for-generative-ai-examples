@@ -1,5 +1,5 @@
 import re
-from content.chapter_4.one_hierarchical_list_generation import openai_result
+from content.chapter_3.one_hierarchical_list_generation import openai_result
 
 
 def test_heading_extraction():
