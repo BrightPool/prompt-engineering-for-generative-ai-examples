@@ -5,7 +5,7 @@ from typing import List, Any
 # Langchain libraries
 from langchain.chat_models import ChatOpenAI
 from langchain.output_parsers import PydanticOutputParser
-from langchain.prompts import SystemMessagePromptTemplate
+from langchain.prompts import SystemMessagePromptTemplate, HumanMessagePromptTemplate
 
 
 class Question(BaseModel):
@@ -34,7 +34,9 @@ class InterviewChain:
         chat = ChatOpenAI(temperature=0.6)
 
         # Set up a parser + inject instructions into the prompt template:
-        parser = PydanticOutputParser(pydantic_object=InterviewQuestions)
+        parser: PydanticOutputParser = PydanticOutputParser(
+            pydantic_object=InterviewQuestions
+        )
 
         system_message = """You are a content SEO researcher. Previously you have summarized and extracted key points from SERP results. 
         The insights gained will be used to do content research and we will compare the key points, insights and summaries across multiple articles.
@@ -48,13 +50,17 @@ class InterviewChain:
         {format_instructions}
         """
         system_prompt = SystemMessagePromptTemplate.from_template(system_message)
+        human_prompt = HumanMessagePromptTemplate.from_template(
+            """Give me the first 5 questions"""
+        )
+        human_message = human_prompt.format()
         system_message = system_prompt.format(
             document_summaries=self.document_summaries,
             topic=self.topic,
             format_instructions=parser.get_format_instructions(),
         )
         # Run the chat:
-        result = chat([system_message])
+        result = chat([system_message, human_message])
 
         # Parse the chat:
         return parser.parse(result.content)
