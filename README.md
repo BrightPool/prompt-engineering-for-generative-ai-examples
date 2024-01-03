@@ -1,14 +1,14 @@
-# Prompt Engineering for Generative AI
+# [Prompt Engineering for Generative AI](https://www.oreilly.com/library/view/prompt-engineering-for/9781098153427/)
 
-_Prompt Engineering for Generative AI_ is a comprehensive guide co-authored for O'Reilly, focusing on the art of prompt engineering for GPT-4, Stable Diffusion and other generative AI models. Dive deep into the world of prompt engineering and LLMs (large language models) with our book, which is your ultimate resource for mastering the techniques and methodologies in this rapidly evolving field.
+[_Prompt Engineering for Generative AI_](https://www.oreilly.com/library/view/prompt-engineering-for/9781098153427/) is a comprehensive guide co-authored for O'Reilly, focusing on the art of prompt engineering for GPT-4, Stable Diffusion and other generative AI models. Dive deep into the world of prompt engineering and LLMs (large language models) with our book, which is your ultimate resource for mastering the techniques and methodologies in this rapidly evolving field.
 
-<a href="https://www.oreilly.com">
+<a href="https://www.oreilly.com/library/view/prompt-engineering-for/9781098153427/">
     <img src="images/logo.png" alt="Prompt Engineering for Generative AI" style="max-height: 300px; width: auto;">
 </a>
 
 ## Content
 
-Access all of the jupyter notebooks and python files within the `content` folder.
+Access all of the jupyter notebooks and python files within the [content](content) folder.
 
 ## Table of Contents
 
