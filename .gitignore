@@ -10,3 +10,5 @@ token.json
 test_env
 archived
 interview.txt
+.DS_Store
+**/**/.DS_Store
