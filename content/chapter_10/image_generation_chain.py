@@ -16,7 +16,7 @@ if api_key == "INSERT_YOUR_IMAGE_API_KEY_HERE":
     )
 
 
-def create_image(title) -> str:
+def create_image(title):
     chat = ChatOpenAI()
     # 1. Generate the image prompt:
     image_prompt = chat(
@@ -30,6 +30,7 @@ def create_image(title) -> str:
     # 2. Generate the image:
     response = requests.post(
         f"{api_host}/v1/generation/{engine_id}/text-to-image",
+        timeout=60,
         headers={
             "Content-Type": "application/json",
             "Accept": "application/json",

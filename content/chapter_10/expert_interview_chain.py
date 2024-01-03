@@ -49,16 +49,19 @@ class InterviewChain:
         - You must ask questions that are open-ended and not yes/no questions.
         {format_instructions}
         """
+
         system_prompt = SystemMessagePromptTemplate.from_template(system_message)
         human_prompt = HumanMessagePromptTemplate.from_template(
             """Give me the first 5 questions"""
         )
+
         human_message = human_prompt.format()
         system_message = system_prompt.format(
             document_summaries=self.document_summaries,
             topic=self.topic,
             format_instructions=parser.get_format_instructions(),
         )
+
         # Run the chat:
         result = chat([system_message, human_message])
 
