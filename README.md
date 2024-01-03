@@ -2,8 +2,8 @@
 
 [_Prompt Engineering for Generative AI_](https://www.oreilly.com/library/view/prompt-engineering-for/9781098153427/) is a comprehensive guide co-authored for O'Reilly, focusing on the art of prompt engineering for GPT-4, Stable Diffusion and other generative AI models. Dive deep into the world of prompt engineering and LLMs (large language models) with our book, which is your ultimate resource for mastering the techniques and methodologies in this rapidly evolving field.
 
-<a href="https://www.oreilly.com/library/view/prompt-engineering-for/9781098153427/">
-    <img src="images/logo.png" alt="Prompt Engineering for Generative AI" style="max-height: 300px; width: auto;">
+<a href="https://www.oreilly.com/library/view/prompt-engineering-for/9781098153427/" style="max-height: 500px; width: 300px;">
+    <img src="images/logo.png" alt="Prompt Engineering for Generative AI" style="max-height: 500px; width: 300px;">
 </a>
 
 ## Content
