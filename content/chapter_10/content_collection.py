@@ -1,6 +1,6 @@
 from langchain_community.document_loaders import AsyncChromiumLoader
 from langchain_community.document_transformers import Html2TextTransformer
-from langchain.schema import Document
+from langchain_core.documents import Document
 import os
 import pandas as pd
 from serpapi import GoogleSearch

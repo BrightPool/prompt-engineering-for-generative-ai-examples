@@ -1,6 +1,6 @@
 import base64
 from langchain_openai.chat_models import ChatOpenAI
-from langchain.schema import SystemMessage
+from langchain_core.messages import SystemMessage
 import getpass
 import os
 import requests
@@ -13,8 +13,10 @@ os.environ["STABILITY_API_KEY"] = api_key
 
 
 def create_image(title):
+    # 1. Create the model:
     chat = ChatOpenAI()
-    # 1. Generate the image prompt:
+
+    # 2. Generate the image prompt:
     image_prompt = chat.invoke(
         [
             SystemMessage(
@@ -23,7 +25,7 @@ def create_image(title):
         ]
     ).content
 
-    # 2. Generate the image:
+    # 3. Generate the image:
     response = requests.post(
         f"{api_host}/v1/generation/{engine_id}/text-to-image",
         timeout=60,

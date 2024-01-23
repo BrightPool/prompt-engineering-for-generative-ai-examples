@@ -1,0 +1,13 @@
+{
+    "name": null,
+    "input_variables": [
+        "sentence"
+    ],
+    "input_types": {},
+    "output_parser": null,
+    "partial_variables": {},
+    "template": "Translate this sentence from English to Spanish.\nSentence: {sentence}\nTranslation:",
+    "template_format": "f-string",
+    "validate_template": false,
+    "_type": "prompt"
+}
