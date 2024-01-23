@@ -1,25 +1,21 @@
 import base64
-from langchain.chat_models import ChatOpenAI
+from langchain_openai.chat_models import ChatOpenAI
 from langchain.schema import SystemMessage
+import getpass
 import os
 import requests
 import uuid
 
 engine_id = "stable-diffusion-xl-1024-v1-0"
 api_host = os.getenv("API_HOST", "https://api.stability.ai")
-api_key = os.getenv("STABILITY_API_KEY", "INSERT_YOUR_IMAGE_API_KEY_HERE")
-
-if api_key == "INSERT_YOUR_IMAGE_API_KEY_HERE":
-    raise Exception(
-        "You need to insert your API key in the image_generation_chain.py file. "
-        "You can get your API key from https://platform.openai.com/"
-    )
+api_key = getpass.getpass("Enter your Stability API key: ")
+os.environ["STABILITY_API_KEY"] = api_key
 
 
 def create_image(title):
     chat = ChatOpenAI()
     # 1. Generate the image prompt:
-    image_prompt = chat(
+    image_prompt = chat.invoke(
         [
             SystemMessage(
                 content=f"""Create an image prompt that will be used for MidJourney for {title}."""

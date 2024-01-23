@@ -1,5 +1,5 @@
 import asyncio
-from langchain.chat_models import ChatOpenAI
+from langchain_openai.chat_models import ChatOpenAI
 from langchain.output_parsers import PydanticOutputParser
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.schema import Document
@@ -8,7 +8,7 @@ from langchain.chains import LLMChain
 from langchain.chains.combine_documents.stuff import StuffDocumentsChain
 from typing import Dict, List, Optional, Union
 import time
-from langchain.prompts import PromptTemplate
+from langchain_core.prompts import PromptTemplate
 
 
 class DocumentSummary(BaseModel):
@@ -48,7 +48,7 @@ async def create_summary_from_text(
     """
 
     # Define LLM chain
-    llm = ChatOpenAI(temperature=0, model_name="gpt-3.5-turbo-16k")
+    llm = ChatOpenAI(temperature=0, model="gpt-3.5-turbo-16k")
     llm_chain = LLMChain(llm=llm, prompt=PromptTemplate.from_template(prompt_template))
 
     print("Summarizing the data!")
@@ -59,8 +59,8 @@ async def create_summary_from_text(
         llm_chain=llm_chain,
         document_variable_name="text",
     )
-    summary_result = await stuff_chain._acall(
-        inputs={
+    summary_result = await stuff_chain.ainvoke(
+        {
             "input_documents": [first_document],
             "format_instructions": parser.get_format_instructions(),
         },

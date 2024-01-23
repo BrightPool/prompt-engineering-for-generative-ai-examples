@@ -1,16 +1,16 @@
 from langchain.chains import LLMChain
 from typing import List, Dict, Any
-from langchain.vectorstores import Chroma
-from langchain.embeddings import OpenAIEmbeddings
+from langchain_community.vectorstores.chroma import Chroma
+from langchain_openai.embeddings import OpenAIEmbeddings
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.memory import ConversationSummaryBufferMemory
-from langchain.chat_models import ChatOpenAI
-from langchain.prompts import (
+from langchain_openai.chat_models import ChatOpenAI
+from langchain_core.prompts import (
     ChatPromptTemplate,
     HumanMessagePromptTemplate,
     MessagesPlaceholder,
 )
-from langchain.schema import SystemMessage
+from langchain_core.messages import SystemMessage
 
 
 class OnlyStoreAIMemory(ConversationSummaryBufferMemory):
@@ -64,9 +64,9 @@ class ContentGenerator:
         )
         self.chroma_db = None
 
-    def split_and_vectorize_documents(self, text_documents: List[str]) -> Chroma:
+    def split_and_vectorize_documents(self, text_documents):
         chunked_docs = self.text_splitter.split_documents(text_documents)
-        self.chroma_db = Chroma.from_documents(chunked_docs, embedding=self.embeddings)
+        self.chroma_db = Chroma.from_documents(chunked_docs, embedding=self.embeddings)  # type: ignore
         return self.chroma_db
 
     def generate_blog_post(self) -> List[str]:
@@ -76,10 +76,8 @@ class ContentGenerator:
             k = 5  # Initialize k
             while k >= 0:
                 try:
-                    relevant_documents = (
-                        self.chroma_db.as_retriever().get_relevant_documents(
-                            subheading.title, k=k
-                        )
+                    relevant_documents = self.chroma_db.as_retriever().get_relevant_documents(  # type: ignore
+                        subheading.title, k=k
                     )
                     section_prompt = f"""
                     You are currently writing the section: {subheading.title}

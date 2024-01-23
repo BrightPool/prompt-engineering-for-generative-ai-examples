@@ -4,6 +4,7 @@ from langchain.output_parsers import PydanticOutputParser
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain.schema import Document
 import gradio as gr
+import getpass
 import os
 
 # Custom imports:
@@ -14,13 +15,8 @@ from article_outline_generation import BlogOutlineGenerator
 from article_generation import ContentGenerator
 from image_generation_chain import create_image
 
-# Check if the SERPAPI_API_KEY is set:
-os.environ["SERPAPI_API_KEY"] = "INSERT_API_KEY_HERE"
-if os.getenv("SERPAPI_API_KEY") == "INSERT_API_KEY_HERE":
-    raise Exception(
-        "You need to insert your API key in the gradio_code_example.py file. "
-        "You can get your API key from https://serpapi.com/dashboard"
-    )
+# Check if the SERPAPI_API_KEY environment variables are set:
+os.environ["SERPAPI_API_KEY"] = getpass.getpass("Enter your SERPAPI API key: ")
 
 
 def get_summary(topic):

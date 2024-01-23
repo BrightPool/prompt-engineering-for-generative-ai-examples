@@ -1,5 +1,5 @@
-from langchain.document_loaders import AsyncHtmlLoader, AsyncChromiumLoader
-from langchain.document_transformers import Html2TextTransformer
+from langchain_community.document_loaders import AsyncChromiumLoader
+from langchain_community.document_transformers import Html2TextTransformer
 from langchain.schema import Document
 import os
 import pandas as pd

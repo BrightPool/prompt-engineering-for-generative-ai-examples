@@ -3,9 +3,14 @@ from pydantic import BaseModel, Field
 from typing import List, Any
 
 # Langchain libraries
-from langchain.chat_models import ChatOpenAI
+from langchain_openai.chat_models import ChatOpenAI
 from langchain.output_parsers import PydanticOutputParser
-from langchain.prompts import SystemMessagePromptTemplate, HumanMessagePromptTemplate
+from langchain_core.prompts import (
+    SystemMessagePromptTemplate,
+    HumanMessagePromptTemplate,
+    ChatPromptTemplate,
+)
+from langchain_core.runnables import RunnableParallel
 
 
 class Question(BaseModel):
@@ -31,7 +36,7 @@ class InterviewChain:
 
     def __call__(self) -> Any:
         # Create an LLM:
-        chat = ChatOpenAI(temperature=0.6)
+        model = ChatOpenAI(temperature=0.6)
 
         # Set up a parser + inject instructions into the prompt template:
         parser: PydanticOutputParser = PydanticOutputParser(
@@ -55,15 +60,27 @@ class InterviewChain:
             """Give me the first 5 questions"""
         )
 
-        human_message = human_prompt.format()
-        system_message = system_prompt.format(
-            document_summaries=self.document_summaries,
-            topic=self.topic,
-            format_instructions=parser.get_format_instructions(),
+        # Create the prompt:
+        prompt = ChatPromptTemplate.from_messages([system_prompt, human_prompt])
+
+        chain = (
+            RunnableParallel(
+                topic=lambda x: self.topic,
+                document_summaries=lambda x: self.document_summaries,
+                format_instructions=lambda x: parser.get_format_instructions(),
+            )
+            | prompt
+            | model
         )
 
         # Run the chat:
-        result = chat([system_message, human_message])
+        result = chain.invoke(
+            {
+                "topic": self.topic,
+                "document_summaries": self.document_summaries,
+                "format_instructions": parser.get_format_instructions(),
+            }
+        )
 
-        # Parse the chat:
+        # Parse the llm response::
         return parser.parse(result.content)
