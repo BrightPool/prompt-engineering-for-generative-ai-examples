@@ -6,6 +6,34 @@
     <img src="images/logo.png" alt="Prompt Engineering for Generative AI" style="max-height: 500px; width: 300px;">
 </a>
 
+## Installation
+
+In order to ensure compatibility and stability, this project uses specific versions of libraries, tailored for Python version `3.9.12`. Given the rapid advancements in Large Language Model (LLM) and AI frameworks, this version locking helps maintain a consistent and error-free environment.
+
+There is a [requirements.txt](requirements.txt) file that contains all of the dependencies for the project. To install them, run the following command:
+
+```bash
+pip install -r requirements.txt
+```
+
+If you would prefer to use a virtual environment, you can create one with the following command:
+
+```bash
+python -m venv venv
+```
+
+Then, activate the virtual environment:
+
+```bash
+source venv/bin/activate
+```
+
+Finally, install the dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
 ## Content
 
 Access all of the jupyter notebooks and python files within the [content](content) folder.
