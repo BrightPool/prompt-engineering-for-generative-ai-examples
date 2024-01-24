@@ -11,6 +11,7 @@ gradio
 html2text
 ipywidgets
 langchain
+langchainhub
 langchain-community
 langchain-experimental
 langchain-mistralai
@@ -19,6 +20,7 @@ lark
 matplotlib
 natsort
 nest_asyncio
+notebook
 numpy
 openai
 pandas
