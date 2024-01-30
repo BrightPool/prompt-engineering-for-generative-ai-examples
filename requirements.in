@@ -1,3 +1,4 @@
+accelerate
 chromadb
 diffusers
 faiss-cpu
@@ -21,6 +22,7 @@ matplotlib
 natsort
 nest_asyncio
 notebook
+numexpr
 numpy
 openai
 pandas
@@ -42,6 +44,8 @@ tiktoken
 torch
 tqdm
 transformers
+unstructured
+unstructured[docx]
 # triton - Only include this for Windows and not Mac
 PyYAML
 pytest
