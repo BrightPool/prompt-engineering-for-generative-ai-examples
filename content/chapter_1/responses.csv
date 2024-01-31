@@ -1,0 +1,141 @@
+variant,prompt,response
+A,"Product description: A pair of shoes that can
+fit any foot size.
+Seed words: adaptable, fit, omni-fit.
+Product names:","1. OmniFit Shoes
+2. AdaptFit Footwear
+3. OmniSize Shoes
+4. FitAll Footwear
+5. VersaFit Shoes
+6. FlexiFit Footwear
+7. AllSize Shoes
+8. SizeBlend Footwear
+9. CustomFit Shoes
+10. UniversalFit Footwear"
+A,"Product description: A pair of shoes that can
+fit any foot size.
+Seed words: adaptable, fit, omni-fit.
+Product names:","1. AdaptaFit Shoes
+2. OmniFit Footwear
+3. FlexiFit Sneakers
+4. UniversalFit Shoes
+5. VersaFit Footwear
+6. AllSize Shoes
+7. InfiniteFit Sneakers
+8. PerfectFit Footwear
+9. CustomFit Shoes
+10. SizeFlex Sneakers"
+A,"Product description: A pair of shoes that can
+fit any foot size.
+Seed words: adaptable, fit, omni-fit.
+Product names:","1. AdaptFit Shoes
+2. FlexiFit Footwear
+3. OmniFit Shoes
+4. Adjustable Fit Sneakers
+5. Universal Fit Footwear
+6. ContourFit Shoes
+7. SizeFlex Footwear
+8. CustomFit Sneakers
+9. AnyFit Shoes
+10. FlexFit Footgear"
+A,"Product description: A pair of shoes that can
+fit any foot size.
+Seed words: adaptable, fit, omni-fit.
+Product names:","1. Adaptafit Shoes
+2. Omni-Fit Shoes
+3. FlexiFit Shoes
+4. FitMax Shoes
+5. AllSize Shoes
+6. PerfectFit Shoes
+7. VersaFit Shoes
+8. SizeFlex Shoes
+9. CustomFit Shoes
+10. UniversalFit Shoes"
+A,"Product description: A pair of shoes that can
+fit any foot size.
+Seed words: adaptable, fit, omni-fit.
+Product names:","1. OmniFit Shoes
+2. FlexFit Footwear
+3. UniversalFit Shoes
+4. AdaptX Shoes
+5. InfiniteFit Footwear
+6. VersaFit Shoes
+7. AllSize Shoes
+8. CustomFit Footwear
+9. SizeFlex Shoes
+10. OneFit Footwear"
+B,"Product description: A home milkshake maker.
+Seed words: fast, healthy, compact.
+Product names: HomeShaker, Fit Shaker, QuickShake, Shake
+Maker
+
+Product description: A watch that can tell accurate time in
+space.
+Seed words: astronaut, space-hardened, eliptical orbit
+Product names: AstroTime, SpaceGuard, Orbit-Accurate,
+EliptoTime.
+
+Product description: A pair of shoes that can fit any foot
+size.
+Seed words: adaptable, fit, omni-fit.
+Product names:","AdaptaFit, OmniFit, VersaFit, PerfectFit."
+B,"Product description: A home milkshake maker.
+Seed words: fast, healthy, compact.
+Product names: HomeShaker, Fit Shaker, QuickShake, Shake
+Maker
+
+Product description: A watch that can tell accurate time in
+space.
+Seed words: astronaut, space-hardened, eliptical orbit
+Product names: AstroTime, SpaceGuard, Orbit-Accurate,
+EliptoTime.
+
+Product description: A pair of shoes that can fit any foot
+size.
+Seed words: adaptable, fit, omni-fit.
+Product names:","AdaptaFit, OmniFit, FlexFit, UniversalFit, PerfectFit."
+B,"Product description: A home milkshake maker.
+Seed words: fast, healthy, compact.
+Product names: HomeShaker, Fit Shaker, QuickShake, Shake
+Maker
+
+Product description: A watch that can tell accurate time in
+space.
+Seed words: astronaut, space-hardened, eliptical orbit
+Product names: AstroTime, SpaceGuard, Orbit-Accurate,
+EliptoTime.
+
+Product description: A pair of shoes that can fit any foot
+size.
+Seed words: adaptable, fit, omni-fit.
+Product names:","AdaptaFit, OmniFit, CustomFit, FitFlex"
+B,"Product description: A home milkshake maker.
+Seed words: fast, healthy, compact.
+Product names: HomeShaker, Fit Shaker, QuickShake, Shake
+Maker
+
+Product description: A watch that can tell accurate time in
+space.
+Seed words: astronaut, space-hardened, eliptical orbit
+Product names: AstroTime, SpaceGuard, Orbit-Accurate,
+EliptoTime.
+
+Product description: A pair of shoes that can fit any foot
+size.
+Seed words: adaptable, fit, omni-fit.
+Product names:","AdaptaFit, OmniFit, PerfectFit, FlexiFit"
+B,"Product description: A home milkshake maker.
+Seed words: fast, healthy, compact.
+Product names: HomeShaker, Fit Shaker, QuickShake, Shake
+Maker
+
+Product description: A watch that can tell accurate time in
+space.
+Seed words: astronaut, space-hardened, eliptical orbit
+Product names: AstroTime, SpaceGuard, Orbit-Accurate,
+EliptoTime.
+
+Product description: A pair of shoes that can fit any foot
+size.
+Seed words: adaptable, fit, omni-fit.
+Product names:","AdaptaFit, OmniFit, FitFlex, UniversalFit"
