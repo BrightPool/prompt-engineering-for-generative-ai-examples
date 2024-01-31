@@ -1,5 +1,5 @@
 import asyncio
-from langchain.chat_models.openai import ChatOpenAI
+from langchain_openai.chat_models import ChatOpenAI
 from langchain.output_parsers import PydanticOutputParser
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_core.documents import Document
@@ -171,7 +171,7 @@ with gr.Blocks() as demo:
             generated_content = gr.Textbox(
                 label="Content", lines=15, show_copy_button=True
             )
-            generated_image = gr.Image(shape=(1200, 630))
+            generated_image = gr.Image()
 
         generate_btn.click(
             fn=generate_content,
