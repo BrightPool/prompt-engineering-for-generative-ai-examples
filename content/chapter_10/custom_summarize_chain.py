@@ -3,7 +3,7 @@ from langchain_openai.chat_models import ChatOpenAI
 from langchain.output_parsers import PydanticOutputParser
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_core.documents import Document
-from pydantic import BaseModel
+from pydantic.v1 import BaseModel
 from langchain.chains import LLMChain
 from langchain.chains.combine_documents.stuff import StuffDocumentsChain
 from typing import Dict, List, Optional, Union
