@@ -1,4 +1,5 @@
 accelerate
+Bottleneck
 chromadb
 diffusers
 faiss-cpu
