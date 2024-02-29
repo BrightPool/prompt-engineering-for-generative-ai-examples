@@ -2,6 +2,7 @@ accelerate
 Bottleneck
 chromadb
 diffusers
+docx2txt
 faiss-cpu
 ftfy
 gensim
