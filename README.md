@@ -2,6 +2,9 @@
 
 [Prompt Engineering for Generative AI](https://www.oreilly.com/library/view/prompt-engineering-for/9781098153427/) is a comprehensive guide co-authored for O'Reilly, focusing on the art of prompt engineering for GPT-4, Stable Diffusion and other generative AI models. Dive deep into the world of prompt engineering and LLMs (large language models) with our book, which is your ultimate resource for mastering the techniques and methodologies in this rapidly evolving field.
 
+Purchase the book:
+- [Amazon - Paperback](https://www.amazon.co.uk/Prompt-Engineering-Generative-Ai-Future-proof/dp/109815343X/ref=sr_1_1?crid=GCADXJG08RP5&dib=eyJ2IjoiMSJ9.ZSvcKTX5SFS6pDUHoM26zT1XOCBCU41uPWn3nIoQbatOL6E9vqTDCv25N19V8lVzC9F3_vO20dFDAnEmWJczBc4GC19QqU4pRNHOn2v7ITRwsonOn9Yfx9A6Ol_deDdxuhfvS0p11WVJGaVGslYm7veK6_O0UYat2UhfcRjxBWD3iP6jmP6vjit845PyGK0cxbWJEJbnDg-0IQNqfSzhu4v8_m2rQrCMUGK7WE6nsrU.98ZGTw98P7ogymFCeXBvWJzQkdq-4xD9AAViRAlvRkU&dib_tag=se&keywords=prompt+engineering+for+generative+ai&qid=1709301926&sprefix=prompt+engineering+%2Caps%2C82&sr=8-1) 
+
 <a href="https://www.oreilly.com/library/view/prompt-engineering-for/9781098153427/" style="max-height: 500px; width: 300px;">
     <img src="images/logo.png" alt="Prompt Engineering for Generative AI" style="max-height: 500px; width: 300px;">
 </a>
