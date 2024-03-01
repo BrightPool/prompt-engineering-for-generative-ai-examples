@@ -2,68 +2,68 @@ variant,prompt,response
 A,"Product description: A pair of shoes that can
 fit any foot size.
 Seed words: adaptable, fit, omni-fit.
-Product names:","1. FlexiFit Omni-Adaptable Sneakers
-2. UniversalFit Infinity Shoes
-3. AdaptStep OmniSize Trainers
-4. EverFit FlexiShoes
-5. AllFit OmniStretch Loafers
-6. SizeFree AdaptLoops Sneakers
-7. MagicFit Universal Shoes
-8. OmniFlex AdjustaWalks
-9. InfinityFit AllSizer Runners
-10. VersaFit ShapeShift Shoes"
+Product names:","1. OmniFit Shoes
+2. AdaptFit Footwear
+3. OmniSize Shoes
+4. FitAll Footwear
+5. VersaFit Shoes
+6. FlexiFit Footwear
+7. AllSize Shoes
+8. SizeBlend Footwear
+9. CustomFit Shoes
+10. UniversalFit Footwear"
 A,"Product description: A pair of shoes that can
 fit any foot size.
 Seed words: adaptable, fit, omni-fit.
-Product names:","1. FlexiFit Omni-shoes
-2. AdaptStep Universal Sneakers
-3. OmniFit FlexRunners
-4. EverFit WonderLoafers
-5. VersaFit AllSizes Shoes
-6. MagicFit Universal Trainers
-7. InfiniteFit MultiSize Sneakers
-8. UltraAdapt ComfortWalks
-9. FlexAll OmniSlippers
-10. UniFit ShapeShifters"
+Product names:","1. AdaptaFit Shoes
+2. OmniFit Footwear
+3. FlexiFit Sneakers
+4. UniversalFit Shoes
+5. VersaFit Footwear
+6. AllSize Shoes
+7. InfiniteFit Sneakers
+8. PerfectFit Footwear
+9. CustomFit Shoes
+10. SizeFlex Sneakers"
 A,"Product description: A pair of shoes that can
 fit any foot size.
 Seed words: adaptable, fit, omni-fit.
-Product names:","1. FlexiFit Wonders
-2. AdaptiStep
-3. OmniFit Walkers
-4. InfiniteFit Shoes
-5. VersaFit Steps
-6. UniSize Striders
-7. AllFit Sneakers
-8. FlexSizers
-9. SizeMorph Loafers
-10. TransformaTreads"
+Product names:","1. AdaptFit Shoes
+2. FlexiFit Footwear
+3. OmniFit Shoes
+4. Adjustable Fit Sneakers
+5. Universal Fit Footwear
+6. ContourFit Shoes
+7. SizeFlex Footwear
+8. CustomFit Sneakers
+9. AnyFit Shoes
+10. FlexFit Footgear"
 A,"Product description: A pair of shoes that can
 fit any foot size.
 Seed words: adaptable, fit, omni-fit.
-Product names:","1. FlexiFit OmniShoes
-2. AdaptiStep
-3. UniversalFit Sneakers
-4. OmniFlex Walkers
-5. EverFit Shoes
-6. InfinityFit Trainers
-7. FlexAll Sneaks
-8. VersaFit Footwear
-9. FitForm 360 Shoes
-10. DynamicFit Slip-Ons"
+Product names:","1. Adaptafit Shoes
+2. Omni-Fit Shoes
+3. FlexiFit Shoes
+4. FitMax Shoes
+5. AllSize Shoes
+6. PerfectFit Shoes
+7. VersaFit Shoes
+8. SizeFlex Shoes
+9. CustomFit Shoes
+10. UniversalFit Shoes"
 A,"Product description: A pair of shoes that can
 fit any foot size.
 Seed words: adaptable, fit, omni-fit.
-Product names:","1. FlexiFit OmniWalkers
-2. AdaptiStride
-3. UniSize StepGloves
-4. EverFit Wondershoes
-5. OmniFit FlexSteps
-6. AllFit AnySteps
-7. VersaFit WalkEase
-8. InfinityFit TrekMates
-9. ShapeShift SoleMates
-10. FlexAll Sneakers"
+Product names:","1. OmniFit Shoes
+2. FlexFit Footwear
+3. UniversalFit Shoes
+4. AdaptX Shoes
+5. InfiniteFit Footwear
+6. VersaFit Shoes
+7. AllSize Shoes
+8. CustomFit Footwear
+9. SizeFlex Shoes
+10. OneFit Footwear"
 B,"Product description: A home milkshake maker.
 Seed words: fast, healthy, compact.
 Product names: HomeShaker, Fit Shaker, QuickShake, Shake
@@ -78,7 +78,7 @@ EliptoTime.
 Product description: A pair of shoes that can fit any foot
 size.
 Seed words: adaptable, fit, omni-fit.
-Product names:","FitFlex, OmniStep, AdaptiSole, UniversalStride."
+Product names:","AdaptaFit, OmniFit, VersaFit, PerfectFit."
 B,"Product description: A home milkshake maker.
 Seed words: fast, healthy, compact.
 Product names: HomeShaker, Fit Shaker, QuickShake, Shake
@@ -93,7 +93,7 @@ EliptoTime.
 Product description: A pair of shoes that can fit any foot
 size.
 Seed words: adaptable, fit, omni-fit.
-Product names:","FitFlex, OmniStep, AdaptiShoe, VersaFit."
+Product names:","AdaptaFit, OmniFit, FlexFit, UniversalFit, PerfectFit."
 B,"Product description: A home milkshake maker.
 Seed words: fast, healthy, compact.
 Product names: HomeShaker, Fit Shaker, QuickShake, Shake
@@ -108,7 +108,7 @@ EliptoTime.
 Product description: A pair of shoes that can fit any foot
 size.
 Seed words: adaptable, fit, omni-fit.
-Product names:","FitAll, OmniStep, AdaptiShoe, UniversalFit"
+Product names:","AdaptaFit, OmniFit, CustomFit, FitFlex"
 B,"Product description: A home milkshake maker.
 Seed words: fast, healthy, compact.
 Product names: HomeShaker, Fit Shaker, QuickShake, Shake
@@ -123,7 +123,7 @@ EliptoTime.
 Product description: A pair of shoes that can fit any foot
 size.
 Seed words: adaptable, fit, omni-fit.
-Product names:","FitFlex, AdaptStep, OmniShoe, FlexFitSizer"
+Product names:","AdaptaFit, OmniFit, PerfectFit, FlexiFit"
 B,"Product description: A home milkshake maker.
 Seed words: fast, healthy, compact.
 Product names: HomeShaker, Fit Shaker, QuickShake, Shake
@@ -138,4 +138,4 @@ EliptoTime.
 Product description: A pair of shoes that can fit any foot
 size.
 Seed words: adaptable, fit, omni-fit.
-Product names:","FitFlex, OmniShoe, AdaptStep, FlexFit, UniversalStride"
+Product names:","AdaptaFit, OmniFit, FitFlex, UniversalFit"
