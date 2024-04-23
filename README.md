@@ -11,7 +11,7 @@ Purchase the book:
 
 ## Installation
 
-In order to ensure compatibility and stability, this project uses specific versions of libraries, tailored for Python version `3.9.12`. Given the rapid advancements in Large Language Model (LLM) and AI frameworks, this version locking helps maintain a consistent and error-free environment.
+In order to ensure compatibility and stability, this project uses specific versions of libraries, tailored for Python version `3.9.12`. Given the rapid advancements in Large Language Models (LLMs) and AI frameworks, this version locking helps maintain a consistent and error-free environment.
 
 There is a [requirements.txt](requirements.txt) file that contains all of the dependencies for the project. To install them, run the following command:
 

@@ -4,29 +4,28 @@
 #
 #    pip-compile requirements.in
 #
-accelerate==0.26.1
+accelerate==0.29.3
     # via -r requirements.in
 aiofiles==23.2.1
     # via gradio
-aiohttp==3.9.1
+aiohttp==3.9.5
     # via
     #   langchain
     #   langchain-community
 aiosignal==1.3.1
     # via aiohttp
-altair==5.2.0
+altair==5.3.0
     # via gradio
 annotated-types==0.6.0
     # via pydantic
-anyio==4.2.0
+anyio==4.3.0
     # via
     #   httpx
     #   jupyter-server
-    #   langchain-core
     #   openai
     #   starlette
     #   watchfiles
-appnope==0.1.3
+appnope==0.1.4
     # via ipykernel
 argon2-cffi==23.1.0
     # via jupyter-server
@@ -34,7 +33,7 @@ argon2-cffi-bindings==21.2.0
     # via argon2-cffi
 arrow==1.3.0
     # via isoduration
-asgiref==3.7.2
+asgiref==3.8.1
     # via opentelemetry-instrumentation-asgi
 asttokens==2.4.1
     # via stack-data
@@ -53,8 +52,6 @@ babel==2.14.0
     # via jupyterlab-server
 backoff==2.2.1
     # via
-    #   opentelemetry-exporter-otlp-proto-common
-    #   opentelemetry-exporter-otlp-proto-grpc
     #   posthog
     #   unstructured
 bcrypt==4.1.2
@@ -66,19 +63,20 @@ beautifulsoup4==4.12.3
 bleach==6.1.0
     # via nbconvert
 blis==0.7.11
-    # via thinc
-bottleneck==1.3.8
-    # via -r requirements.in
-build==1.0.3
-    # via chromadb
-cachetools==5.3.2
-    # via google-auth
-catalogue==2.0.10
     # via
     #   spacy
-    #   srsly
     #   thinc
-certifi==2023.11.17
+bottleneck==1.3.8
+    # via -r requirements.in
+build==1.2.1
+    # via chromadb
+cachetools==5.3.3
+    # via google-auth
+catalogue==1.0.2
+    # via
+    #   spacy
+    #   thinc
+certifi==2024.2.2
     # via
     #   httpcore
     #   httpx
@@ -97,28 +95,20 @@ charset-normalizer==3.3.2
     #   unstructured-client
 chroma-hnswlib==0.7.3
     # via chromadb
-chromadb==0.4.22
+chromadb==0.4.24
     # via -r requirements.in
 click==8.1.7
     # via
     #   nltk
     #   typer
     #   uvicorn
-cloudpathlib==0.16.0
-    # via weasel
-colorama==0.4.6
-    # via typer
 coloredlogs==15.0.1
     # via onnxruntime
-comm==0.2.1
+comm==0.2.2
     # via
     #   ipykernel
     #   ipywidgets
-confection==0.1.4
-    # via
-    #   thinc
-    #   weasel
-contourpy==1.2.0
+contourpy==1.2.1
     # via matplotlib
 cycler==0.12.1
     # via matplotlib
@@ -127,50 +117,52 @@ cymem==2.0.8
     #   preshed
     #   spacy
     #   thinc
-dataclasses-json==0.6.3
+dataclasses-json==0.6.4
     # via
     #   langchain
     #   langchain-community
     #   unstructured
     #   unstructured-client
-debugpy==1.8.0
+debugpy==1.8.1
     # via ipykernel
 decorator==5.1.1
     # via ipython
+deepdiff==7.0.1
+    # via unstructured-client
 defusedxml==0.7.1
     # via nbconvert
 deprecated==1.2.14
     # via
     #   opentelemetry-api
     #   opentelemetry-exporter-otlp-proto-grpc
-diffusers==0.25.1
+diffusers==0.27.2
     # via -r requirements.in
 distro==1.9.0
     # via openai
-dnspython==2.5.0
+dnspython==2.6.1
     # via pymongo
 docx2txt==0.8
     # via -r requirements.in
-emoji==2.10.0
+emoji==2.11.1
     # via unstructured
-exceptiongroup==1.2.0
+exceptiongroup==1.2.1
     # via
     #   anyio
     #   ipython
     #   pytest
 executing==2.0.1
     # via stack-data
-faiss-cpu==1.7.4
+faiss-cpu==1.8.0
     # via -r requirements.in
-fastapi==0.109.0
+fastapi==0.110.2
     # via
     #   chromadb
     #   gradio
 fastjsonschema==2.19.1
     # via nbformat
-ffmpy==0.3.1
+ffmpy==0.3.2
     # via gradio
-filelock==3.13.1
+filelock==3.13.4
     # via
     #   diffusers
     #   huggingface-hub
@@ -178,9 +170,9 @@ filelock==3.13.1
     #   transformers
 filetype==1.2.0
     # via unstructured
-flatbuffers==23.5.26
+flatbuffers==24.3.25
     # via onnxruntime
-fonttools==4.47.2
+fonttools==4.51.0
     # via matplotlib
 fqdn==1.5.1
     # via jsonschema
@@ -188,12 +180,12 @@ frozenlist==1.4.1
     # via
     #   aiohttp
     #   aiosignal
-fsspec==2023.12.2
+fsspec==2024.3.1
     # via
     #   gradio-client
     #   huggingface-hub
     #   torch
-ftfy==6.1.3
+ftfy==6.2.0
     # via -r requirements.in
 gensim==4.3.2
     # via -r requirements.in
@@ -201,11 +193,11 @@ getpass2==1.0.2
     # via -r requirements.in
 glob2==0.7
     # via -r requirements.in
-google-api-core==2.15.0
+google-api-core==2.18.0
     # via
     #   google-cloud-core
     #   google-cloud-storage
-google-auth==2.26.2
+google-auth==2.29.0
     # via
     #   google-api-core
     #   google-cloud-core
@@ -213,7 +205,7 @@ google-auth==2.26.2
     #   kubernetes
 google-cloud-core==2.4.1
     # via google-cloud-storage
-google-cloud-storage==2.14.0
+google-cloud-storage==2.16.0
     # via -r requirements.in
 google-crc32c==1.5.0
     # via
@@ -223,19 +215,19 @@ google-resumable-media==2.7.0
     # via google-cloud-storage
 google-search-results==2.4.2
     # via -r requirements.in
-googleapis-common-protos==1.62.0
+googleapis-common-protos==1.63.0
     # via
     #   google-api-core
     #   opentelemetry-exporter-otlp-proto-grpc
-gradio==4.15.0
+gradio==4.27.0
     # via -r requirements.in
-gradio-client==0.8.1
+gradio-client==0.15.1
     # via gradio
 greenlet==3.0.3
     # via
     #   playwright
     #   sqlalchemy
-grpcio==1.60.0
+grpcio==1.62.2
     # via
     #   chromadb
     #   opentelemetry-exporter-otlp-proto-grpc
@@ -243,19 +235,22 @@ h11==0.14.0
     # via
     #   httpcore
     #   uvicorn
-html2text==2020.1.16
+html2text==2024.2.26
     # via -r requirements.in
-httpcore==1.0.2
+httpcore==1.0.5
     # via httpx
 httptools==0.6.1
     # via uvicorn
-httpx==0.25.2
+httpx==0.27.0
     # via
     #   gradio
     #   gradio-client
-    #   mistralai
+    #   jupyterlab
+    #   langchain-mistralai
     #   openai
-huggingface-hub==0.20.3
+httpx-sse==0.4.0
+    # via langchain-mistralai
+huggingface-hub==0.22.2
     # via
     #   accelerate
     #   diffusers
@@ -266,7 +261,7 @@ huggingface-hub==0.20.3
     #   transformers
 humanfriendly==10.0
     # via coloredlogs
-idna==3.6
+idna==3.7
     # via
     #   anyio
     #   httpx
@@ -274,7 +269,7 @@ idna==3.6
     #   requests
     #   unstructured-client
     #   yarl
-importlib-metadata==6.11.0
+importlib-metadata==7.0.0
     # via
     #   build
     #   diffusers
@@ -284,20 +279,20 @@ importlib-metadata==6.11.0
     #   jupyterlab-server
     #   nbconvert
     #   opentelemetry-api
-importlib-resources==6.1.1
+importlib-resources==6.4.0
     # via
     #   chromadb
     #   gradio
     #   matplotlib
 iniconfig==2.0.0
     # via pytest
-ipykernel==6.29.0
+ipykernel==6.29.4
     # via jupyterlab
 ipython==8.18.1
     # via
     #   ipykernel
     #   ipywidgets
-ipywidgets==8.1.1
+ipywidgets==8.1.2
     # via -r requirements.in
 isoduration==20.11.0
     # via jsonschema
@@ -311,13 +306,12 @@ jinja2==3.1.3
     #   jupyterlab
     #   jupyterlab-server
     #   nbconvert
-    #   spacy
     #   torch
-joblib==1.3.2
+joblib==1.4.0
     # via
     #   nltk
     #   scikit-learn
-json5==0.9.14
+json5==0.9.25
     # via jupyterlab-server
 jsonpatch==1.33
     # via
@@ -337,12 +331,12 @@ jsonschema[format-nongpl]==4.21.1
     #   nbformat
 jsonschema-specifications==2023.12.1
     # via jsonschema
-jupyter-client==8.6.0
+jupyter-client==8.6.1
     # via
     #   ipykernel
     #   jupyter-server
     #   nbclient
-jupyter-core==5.7.1
+jupyter-core==5.7.2
     # via
     #   ipykernel
     #   jupyter-client
@@ -351,94 +345,93 @@ jupyter-core==5.7.1
     #   nbclient
     #   nbconvert
     #   nbformat
-jupyter-events==0.9.0
+jupyter-events==0.10.0
     # via jupyter-server
-jupyter-lsp==2.2.2
+jupyter-lsp==2.2.5
     # via jupyterlab
-jupyter-server==2.12.5
+jupyter-server==2.14.0
     # via
     #   jupyter-lsp
     #   jupyterlab
     #   jupyterlab-server
     #   notebook
     #   notebook-shim
-jupyter-server-terminals==0.5.2
+jupyter-server-terminals==0.5.3
     # via jupyter-server
-jupyterlab==4.0.11
+jupyterlab==4.1.6
     # via notebook
 jupyterlab-pygments==0.3.0
     # via nbconvert
-jupyterlab-server==2.25.2
+jupyterlab-server==2.27.1
     # via
     #   jupyterlab
     #   notebook
-jupyterlab-widgets==3.0.9
+jupyterlab-widgets==3.0.10
     # via ipywidgets
 kiwisolver==1.4.5
     # via matplotlib
 kubernetes==29.0.0
     # via chromadb
-langchain==0.1.3
+langchain==0.1.16
     # via
     #   -r requirements.in
     #   langchain-experimental
-langchain-community==0.0.15
+langchain-community==0.0.34
     # via
     #   -r requirements.in
     #   langchain
-langchain-core==0.1.15
+langchain-core==0.1.45
     # via
     #   langchain
     #   langchain-community
     #   langchain-experimental
     #   langchain-mistralai
     #   langchain-openai
-langchain-experimental==0.0.49
+    #   langchain-text-splitters
+langchain-experimental==0.0.57
     # via -r requirements.in
-langchain-mistralai==0.0.3
+langchain-mistralai==0.1.2
     # via -r requirements.in
-langchain-openai==0.0.3
+langchain-openai==0.1.3
     # via -r requirements.in
-langchainhub==0.1.14
+langchain-text-splitters==0.0.1
+    # via langchain
+langchainhub==0.1.15
     # via -r requirements.in
-langcodes==3.3.0
-    # via spacy
 langdetect==1.0.9
     # via unstructured
-langsmith==0.0.83
+langsmith==0.1.49
     # via
     #   langchain
     #   langchain-community
     #   langchain-core
 lark==1.1.9
     # via -r requirements.in
-lxml==5.1.0
+lxml==5.2.1
     # via
     #   python-docx
     #   unstructured
 markdown-it-py==3.0.0
     # via rich
-markupsafe==2.1.4
+markupsafe==2.1.5
     # via
     #   gradio
     #   jinja2
     #   nbconvert
-marshmallow==3.20.2
+marshmallow==3.21.1
     # via
     #   dataclasses-json
     #   unstructured-client
-matplotlib==3.8.2
+matplotlib==3.8.4
     # via
     #   -r requirements.in
     #   gradio
-matplotlib-inline==0.1.6
+matplotlib-inline==0.1.7
     # via
     #   ipykernel
     #   ipython
 mdurl==0.1.2
     # via markdown-it-py
-mistralai==0.0.11
-    # via langchain-mistralai
 mistune==3.0.2
     # via nbconvert
 mmh3==4.1.0
@@ -447,7 +440,7 @@ monotonic==1.6
     # via posthog
 mpmath==1.3.0
     # via sympy
-multidict==6.0.4
+multidict==6.0.5
     # via
     #   aiohttp
     #   yarl
@@ -462,11 +455,11 @@ mypy-extensions==1.0.0
     #   unstructured-client
 natsort==8.4.0
     # via -r requirements.in
-nbclient==0.9.0
+nbclient==0.10.0
     # via nbconvert
-nbconvert==7.14.2
+nbconvert==7.16.3
     # via jupyter-server
-nbformat==5.9.2
+nbformat==5.10.4
     # via
     #   jupyter-server
     #   nbclient
@@ -478,18 +471,16 @@ nest-asyncio==1.6.0
 networkx==3.2.1
     # via torch
 nltk==3.8.1
-    # via
-    #   sentence-transformers
-    #   unstructured
-notebook==7.0.7
+    # via unstructured
+notebook==7.1.3
     # via -r requirements.in
-notebook-shim==0.2.3
+notebook-shim==0.2.4
     # via
     #   jupyterlab
     #   notebook
-numexpr==2.9.0
+numexpr==2.10.0
     # via -r requirements.in
-numpy==1.26.3
+numpy==1.26.4
     # via
     #   -r requirements.in
     #   accelerate
@@ -500,11 +491,11 @@ numpy==1.26.3
     #   chromadb
     #   contourpy
     #   diffusers
+    #   faiss-cpu
     #   gensim
     #   gradio
     #   langchain
     #   langchain-community
-    #   langchain-openai
     #   matplotlib
     #   numexpr
     #   onnxruntime
@@ -514,7 +505,6 @@ numpy==1.26.3
     #   sentence-transformers
     #   spacy
     #   thinc
-    #   torchvision
     #   transformers
     #   unstructured
 oauthlib==3.2.2
@@ -523,11 +513,11 @@ oauthlib==3.2.2
     #   requests-oauthlib
 onnxruntime==1.16.3
     # via chromadb
-openai==1.9.0
+openai==1.23.2
     # via
     #   -r requirements.in
     #   langchain-openai
-opentelemetry-api==1.22.0
+opentelemetry-api==1.24.0
     # via
     #   chromadb
     #   opentelemetry-exporter-otlp-proto-grpc
@@ -535,40 +525,43 @@ opentelemetry-api==1.22.0
     #   opentelemetry-instrumentation-asgi
     #   opentelemetry-instrumentation-fastapi
     #   opentelemetry-sdk
-opentelemetry-exporter-otlp-proto-common==1.22.0
+opentelemetry-exporter-otlp-proto-common==1.24.0
     # via opentelemetry-exporter-otlp-proto-grpc
-opentelemetry-exporter-otlp-proto-grpc==1.22.0
+opentelemetry-exporter-otlp-proto-grpc==1.24.0
     # via chromadb
-opentelemetry-instrumentation==0.43b0
+opentelemetry-instrumentation==0.45b0
     # via
     #   opentelemetry-instrumentation-asgi
     #   opentelemetry-instrumentation-fastapi
-opentelemetry-instrumentation-asgi==0.43b0
+opentelemetry-instrumentation-asgi==0.45b0
     # via opentelemetry-instrumentation-fastapi
-opentelemetry-instrumentation-fastapi==0.43b0
+opentelemetry-instrumentation-fastapi==0.45b0
     # via chromadb
-opentelemetry-proto==1.22.0
+opentelemetry-proto==1.24.0
     # via
     #   opentelemetry-exporter-otlp-proto-common
     #   opentelemetry-exporter-otlp-proto-grpc
-opentelemetry-sdk==1.22.0
+opentelemetry-sdk==1.24.0
     # via
     #   chromadb
     #   opentelemetry-exporter-otlp-proto-grpc
-opentelemetry-semantic-conventions==0.43b0
+opentelemetry-semantic-conventions==0.45b0
     # via
     #   opentelemetry-instrumentation-asgi
     #   opentelemetry-instrumentation-fastapi
     #   opentelemetry-sdk
-opentelemetry-util-http==0.43b0
+opentelemetry-util-http==0.45b0
     # via
     #   opentelemetry-instrumentation-asgi
     #   opentelemetry-instrumentation-fastapi
-orjson==3.9.12
+ordered-set==4.1.0
+    # via deepdiff
+orjson==3.10.1
     # via
+    #   chromadb
     #   gradio
-    #   mistralai
-overrides==7.6.0
+    #   langsmith
+overrides==7.7.0
     # via
     #   chromadb
     #   jupyter-server
@@ -590,56 +583,60 @@ packaging==23.2
     #   nbconvert
     #   onnxruntime
     #   pytest
-    #   spacy
-    #   thinc
     #   transformers
     #   unstructured-client
-    #   weasel
-pandas==2.2.0
+pandas==2.2.2
     # via
     #   -r requirements.in
     #   altair
     #   gradio
 pandocfilters==1.5.1
     # via nbconvert
-parso==0.8.3
+parso==0.8.4
     # via jedi
 pdf2image==1.17.0
     # via -r requirements.in
 pexpect==4.9.0
     # via ipython
-pillow==10.2.0
+pillow==10.3.0
     # via
     #   -r requirements.in
     #   diffusers
     #   gradio
     #   matplotlib
     #   pdf2image
-    #   torchvision
-pinecone-client==3.0.1
+    #   sentence-transformers
+pinecone-client==3.2.2
     # via -r requirements.in
-platformdirs==4.1.0
+plac==1.1.3
+    # via
+    #   spacy
+    #   thinc
+platformdirs==4.2.0
     # via jupyter-core
-playwright==1.41.0
+playwright==1.43.0
     # via pytest-playwright
-pluggy==1.3.0
+pluggy==1.5.0
     # via pytest
-posthog==3.3.2
+posthog==3.5.0
     # via chromadb
 preshed==3.0.9
     # via
     #   spacy
     #   thinc
-prometheus-client==0.19.0
+prometheus-client==0.20.0
     # via jupyter-server
 prompt-toolkit==3.0.43
     # via ipython
-protobuf==4.25.2
+proto-plus==1.23.0
+    # via google-api-core
+protobuf==4.25.3
     # via
     #   google-api-core
     #   googleapis-common-protos
     #   onnxruntime
     #   opentelemetry-proto
+    #   proto-plus
 psutil==5.9.8
     # via
     #   accelerate
@@ -648,64 +645,61 @@ ptyprocess==0.7.0
     # via
     #   pexpect
     #   terminado
-pulsar-client==3.4.0
+pulsar-client==3.5.0
     # via chromadb
 pure-eval==0.2.2
     # via stack-data
-pyasn1==0.5.1
+pyasn1==0.6.0
     # via
     #   pyasn1-modules
     #   rsa
-pyasn1-modules==0.3.0
+pyasn1-modules==0.4.0
     # via google-auth
-pycparser==2.21
+pycparser==2.22
     # via cffi
-pydantic==2.5.3
+pydantic==2.7.1
     # via
     #   -r requirements.in
     #   chromadb
-    #   confection
     #   fastapi
     #   gradio
     #   langchain
     #   langchain-core
     #   langsmith
-    #   mistralai
     #   openai
-    #   spacy
-    #   thinc
-    #   weasel
-pydantic-core==2.14.6
+pydantic-core==2.18.2
     # via pydantic
 pydub==0.25.1
     # via gradio
-pyee==11.0.1
+pyee==11.1.0
     # via playwright
 pygments==2.17.2
     # via
     #   ipython
     #   nbconvert
     #   rich
-pymongo==4.6.1
+pymongo==4.6.3
     # via -r requirements.in
-pyparsing==3.1.1
+pyparsing==3.1.2
     # via matplotlib
-pypdf==4.0.0
-    # via -r requirements.in
+pypdf==4.2.0
+    # via
+    #   -r requirements.in
+    #   unstructured-client
 pypika==0.48.9
     # via chromadb
 pyproject-hooks==1.0.0
     # via build
-pytest==7.4.4
+pytest==8.1.1
     # via
     #   -r requirements.in
     #   pytest-base-url
     #   pytest-playwright
-pytest-base-url==2.0.0
+pytest-base-url==2.1.0
     # via pytest-playwright
-pytest-playwright==0.4.3
+pytest-playwright==0.4.4
     # via -r requirements.in
-python-dateutil==2.8.2
+python-dateutil==2.9.0.post0
     # via
     #   arrow
     #   jupyter-client
@@ -720,17 +714,17 @@ python-dotenv==1.0.1
     # via
     #   -r requirements.in
     #   uvicorn
-python-iso639==2024.1.2
+python-iso639==2024.2.7
     # via unstructured
 python-json-logger==2.0.7
     # via jupyter-events
 python-magic==0.4.27
     # via unstructured
-python-multipart==0.0.6
+python-multipart==0.0.9
     # via gradio
-python-slugify==8.0.1
+python-slugify==8.0.4
     # via pytest-playwright
-pytz==2023.3.post1
+pytz==2024.1
     # via pandas
 pyyaml==6.0.1
     # via
@@ -746,19 +740,19 @@ pyyaml==6.0.1
     #   langchain-core
     #   transformers
     #   uvicorn
-pyzmq==25.1.2
+pyzmq==26.0.2
     # via
     #   ipykernel
     #   jupyter-client
     #   jupyter-server
-rapidfuzz==3.6.1
+rapidfuzz==3.8.1
     # via unstructured
-referencing==0.32.1
+referencing==0.34.0
     # via
     #   jsonschema
     #   jsonschema-specifications
     #   jupyter-events
-regex==2023.12.25
+regex==2024.4.16
     # via
     #   diffusers
     #   nltk
@@ -776,7 +770,6 @@ requests==2.31.0
     #   kubernetes
     #   langchain
     #   langchain-community
-    #   langchain-core
     #   langchainhub
     #   langsmith
     #   posthog
@@ -785,12 +778,10 @@ requests==2.31.0
     #   serpapi
     #   spacy
     #   tiktoken
-    #   torchvision
     #   transformers
     #   unstructured
     #   unstructured-client
-    #   weasel
-requests-oauthlib==1.3.1
+requests-oauthlib==2.0.0
     # via kubernetes
 rfc3339-validator==0.1.4
     # via
@@ -800,26 +791,26 @@ rfc3986-validator==0.1.1
     # via
     #   jsonschema
     #   jupyter-events
-rich==13.7.0
+rich==13.7.1
     # via typer
-rpds-py==0.17.1
+rpds-py==0.18.0
     # via
     #   jsonschema
     #   referencing
 rsa==4.9
     # via google-auth
-ruff==0.1.14
+ruff==0.4.1
     # via gradio
-safetensors==0.4.2
+safetensors==0.4.3
     # via
     #   accelerate
     #   diffusers
     #   transformers
-scikit-learn==1.4.0
+scikit-learn==1.4.2
     # via
     #   -r requirements.in
     #   sentence-transformers
-scipy==1.12.0
+scipy==1.13.0
     # via
     #   -r requirements.in
     #   gensim
@@ -827,12 +818,10 @@ scipy==1.12.0
     #   sentence-transformers
 semantic-version==2.10.0
     # via gradio
-send2trash==1.8.2
+send2trash==1.8.3
     # via jupyter-server
-sentence-transformers==2.2.2
+sentence-transformers==2.7.0
     # via -r requirements.in
-sentencepiece==0.1.99
-    # via sentence-transformers
 serpapi==0.1.5
     # via -r requirements.in
 shellingham==1.5.4
@@ -847,37 +836,28 @@ six==1.16.0
     #   python-dateutil
     #   rfc3339-validator
     #   unstructured-client
-smart-open==6.4.0
-    # via
-    #   gensim
-    #   spacy
-    #   weasel
-sniffio==1.3.0
+smart-open==7.0.4
+    # via gensim
+sniffio==1.3.1
     # via
     #   anyio
     #   httpx
     #   openai
 soupsieve==2.5
     # via beautifulsoup4
-spacy==3.7.2
+spacy==2.3.9
     # via -r requirements.in
-spacy-legacy==3.0.12
-    # via spacy
-spacy-loggers==1.0.5
-    # via spacy
-sqlalchemy==2.0.25
+sqlalchemy==2.0.29
     # via
     #   langchain
     #   langchain-community
-srsly==2.4.8
+srsly==1.0.7
     # via
-    #   confection
     #   spacy
     #   thinc
-    #   weasel
 stack-data==0.6.3
     # via ipython
-starlette==0.35.1
+starlette==0.37.2
     # via fastapi
 sympy==1.12
     # via
@@ -893,25 +873,26 @@ tenacity==8.2.3
     #   langchain
     #   langchain-community
     #   langchain-core
-terminado==0.18.0
+terminado==0.18.1
     # via
     #   jupyter-server
     #   jupyter-server-terminals
 text-unidecode==1.3
     # via python-slugify
-thinc==8.2.2
+thinc==7.4.6
     # via spacy
-threadpoolctl==3.2.0
+threadpoolctl==3.4.0
     # via scikit-learn
-tiktoken==0.5.2
+tiktoken==0.6.0
     # via
     #   -r requirements.in
     #   langchain-openai
-tinycss2==1.2.1
+tinycss2==1.3.0
     # via nbconvert
-tokenizers==0.15.1
+tokenizers==0.15.2
     # via
     #   chromadb
+    #   langchain-mistralai
     #   transformers
 tomli==2.0.1
     # via
@@ -923,14 +904,11 @@ tomlkit==0.12.0
     # via gradio
 toolz==0.12.1
     # via altair
-torch==2.1.2
+torch==2.2.2
     # via
     #   -r requirements.in
     #   accelerate
     #   sentence-transformers
-    #   torchvision
-torchvision==0.16.2
-    # via sentence-transformers
 tornado==6.4
     # via
     #   ipykernel
@@ -939,7 +917,7 @@ tornado==6.4
     #   jupyterlab
     #   notebook
     #   terminado
-tqdm==4.66.1
+tqdm==4.66.2
     # via
     #   -r requirements.in
     #   chromadb
@@ -949,8 +927,9 @@ tqdm==4.66.1
     #   pinecone-client
     #   sentence-transformers
     #   spacy
+    #   thinc
     #   transformers
-traitlets==5.14.1
+traitlets==5.14.3
     # via
     #   comm
     #   ipykernel
@@ -965,28 +944,25 @@ traitlets==5.14.1
     #   nbclient
     #   nbconvert
     #   nbformat
-transformers==4.37.0
+transformers==4.39.3
     # via
     #   -r requirements.in
     #   sentence-transformers
-typer[all]==0.9.0
+typer==0.12.3
     # via
     #   chromadb
     #   gradio
-    #   spacy
-    #   weasel
-types-python-dateutil==2.8.19.20240106
+types-python-dateutil==2.9.0.20240316
     # via arrow
-types-requests==2.31.0.20240106
+types-requests==2.31.0.20240406
     # via langchainhub
-typing-extensions==4.9.0
+typing-extensions==4.11.0
     # via
     #   altair
     #   anyio
     #   asgiref
     #   async-lru
     #   chromadb
-    #   cloudpathlib
     #   fastapi
     #   gradio
     #   gradio-client
@@ -1012,40 +988,38 @@ typing-inspect==0.9.0
     # via
     #   dataclasses-json
     #   unstructured-client
-tzdata==2023.4
+tzdata==2024.1
     # via pandas
-unstructured[docx]==0.12.3
+unstructured[docx]==0.13.3
     # via -r requirements.in
-unstructured-client==0.16.0
+unstructured-client==0.22.0
     # via unstructured
 uri-template==1.3.0
     # via jsonschema
-urllib3==2.1.0
+urllib3==2.2.1
     # via
+    #   gradio
     #   kubernetes
     #   pinecone-client
     #   requests
     #   types-requests
     #   unstructured-client
-uvicorn[standard]==0.27.0
+uvicorn[standard]==0.29.0
     # via
     #   chromadb
     #   gradio
 uvloop==0.19.0
     # via uvicorn
-wasabi==1.1.2
+wasabi==0.10.1
     # via
     #   spacy
     #   thinc
-    #   weasel
 watchfiles==0.21.0
     # via uvicorn
 wcwidth==0.2.13
     # via
     #   ftfy
     #   prompt-toolkit
-weasel==0.3.4
-    # via spacy
 webcolors==1.13
     # via jsonschema
 webencodings==0.5.1
@@ -1060,16 +1034,17 @@ websockets==11.0.3
     # via
     #   gradio-client
     #   uvicorn
-widgetsnbextension==4.0.9
+widgetsnbextension==4.0.10
     # via ipywidgets
 wrapt==1.16.0
     # via
     #   deprecated
     #   opentelemetry-instrumentation
+    #   smart-open
     #   unstructured
 yarl==1.9.4
     # via aiohttp
-zipp==3.17.0
+zipp==3.18.1
     # via
     #   importlib-metadata
     #   importlib-resources
