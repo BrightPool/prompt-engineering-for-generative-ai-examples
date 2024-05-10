@@ -1,4 +1,7 @@
 langchain
+langchain-openai
+langchain-community
+langchain-text-splitters
 google-search-results
 pandas 
 html2text 

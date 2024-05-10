@@ -18,6 +18,7 @@ langchainhub
 langchain-community
 langchain-experimental
 langchain-mistralai
+langchain-text-splitters
 langchain-openai
 lark
 matplotlib
