@@ -76,7 +76,7 @@ class ContentGenerator:
             k = 5  # Initialize k
             while k >= 0:
                 try:
-                    relevant_documents = self.chroma_db.as_retriever().get_relevant_documents(  # type: ignore
+                    relevant_documents = self.chroma_db.as_retriever().invoke(  # type: ignore
                         subheading.title, k=k
                     )
                     section_prompt = f"""
